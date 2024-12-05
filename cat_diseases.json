@@ -1,0 +1,401 @@
+[
+  {
+    "id": 0,
+    "name": "Nấm Mèo",
+    "causes": [
+      "Do ký sinh trùng hoặc các loại nấm",
+      "Vết thương trên da do bọ chét cắn đốt",
+      "Cơ thể suy giảm miễn dịch, liên quan đến các bệnh như ung thư tuyến tụy hoặc gan"
+    ],
+    "symptoms": [
+      "Rụng lông thành mảng, có màu hồng",
+      "Ngứa ngáy, gãi đến chảy máu",
+      "Thường xuyên cọ sát vào đồ vật",
+      "Vạch lông thấy các đốm đỏ, bong vảy, chảy mủ và có mùi hôi",
+      "Mèo giảm cân",
+      "Sốt",
+      "Biếng ăn",
+      "Khó thở",
+      "Lười vận động"
+    ],
+    "infectious": true,
+    "treatments": [
+      "Dùng thuốc uống hoặc thuốc mỡ kháng nấm",
+      "Nếu có u nang, cần phẫu thuật cắt bỏ",
+      "Không tắm mèo trong quá trình điều trị",
+      "Vệ sinh và làm sạch vết thương trước khi bôi thuốc",
+      "Hạn chế mèo liếm thuốc ngoài da, sử dụng vòng cổ chống liếm (loa đeo đầu)"
+    ],
+    "drugs": [
+      "Thuốc mỡ",
+      "Thuốc kháng nấm đường uống : Nizoral, Ketoconazol, Flucinazol",
+      "Kháng sinh dùng để đề phòng bội nhiễm"
+    ],
+    "preventions": [
+      "Thường xuyên tắm nắng cho mèo",
+      "Giữ vệ sinh sạch sẽ, khô ráo khu vực nuôi mèo",
+      "Sấy khô lông cho mèo sau khi tắm",
+      "Trong những ngày độ ẩm cao, giữ mèo ở nơi khô ráo",
+      "Cách ly và chăm sóc đặc biệt cho mèo có biểu hiện ngứa",
+      "Không tiếp xúc với mèo nghi bị nấm hoặc đeo găng tay khi tiếp xúc",
+      "Khám sức khỏe mèo thường xuyên"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Rụng lông",
+    "causes": [
+      "Mèo đến tuổi thay lông",
+      "Mèo bị nhiễm ký sinh trùng trên da như ve, bọ chét, ghẻ",
+      "Thay đổi thời tiết",
+      "Mèo bị thay đổi nội tiết tố sau khi triệt sản",
+      "Dung dịch vệ sinh không phù hợp"
+    ],
+    "symptoms": ["Lông rụng nhiều", "Mèo trở nên khó tính"],
+    "infectious": false,
+    "treatments": [
+      "Thường xuyên tắm và sấy khô lông cho mèo",
+      "Chọn loại sữa tắm phù hợp",
+      "Thay đổi chế độ ăn uống, tăng khẩu phần dinh dưỡng",
+      "Chải lông hàng ngày",
+      "Cho mèo uống nhiều nước"
+    ],
+    "drugs": ["Thuốc diệt ký sinh trùng"],
+    "preventions": ["Giữ vệ sinh nơi ở của mèo"]
+  },
+  {
+    "id": 2,
+    "name": "Viêm da",
+    "causes": [
+      "Do ký sinh trùng",
+      "Do nấm",
+      "Do chế độ dinh dưỡng kém",
+      "Do dị ứng thức ăn, môi trường"
+    ],
+    "symptoms": [
+      "Nổi mụn trứng cá, thường xuất hiện dưới da tạo thành các đốm đỏ",
+      "Nhiễm khuẩn, da đỏ, sưng và có thể có mủ",
+      "Rụng lông từng mảng",
+      "Có bọ chét, ve tai, rận",
+      "Lông đuôi thưa",
+      "U hạch ái toan, loét lan rộng hoặc tổn thương ở mũi và môi",
+      "Da khô và bong ra từng mảng"
+    ],
+    "infectious": true,
+    "treatments": [
+      "Chuyển sang loại thức ăn chứa các chất dinh dưỡng cân đối, axit béo, omega-3, omega-6",
+      "Chăm sóc da",
+      "Dùng thuốc chống dị ứng",
+      "Dùng thuốc chống ký sinh trùng",
+      "Dùng thuốc chống nấm",
+      "Dùng thuốc chống vi khuẩn",
+      "Sử dụng antihistamines, antibiotics, immunomodulators"
+    ],
+    "drugs": [
+      "Thuốc chống dị ứng",
+      "Thuốc chống ký sinh trùng",
+      "Thuốc chống nấm",
+      "Thuốc chống vi khuẩn"
+    ],
+    "preventions": [
+      "Chế độ dinh dưỡng cân đối",
+      "Vệ sinh lông da",
+      "Chăm sóc lông đúng cách",
+      "Giữ môi trường sạch sẽ",
+      "Tư vấn thú y định kỳ",
+      "Tránh sử dụng các sản phẩm không phù hợp cho da"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Suy thận",
+    "causes": [
+      "Tuổi tác và quá trình lão hóa",
+      "Các bệnh lý tiền suy thận",
+      "Chế độ ăn uống không phù hợp chứa quá nhiều protein, chất béo, muối",
+      "Dùng thuốc có tác động tiêu cực đến thận",
+      "Di truyền",
+      "Chấn thương có thể gây ra suy thận"
+    ],
+    "symptoms": [
+      "Tiểu nhiều hoặc tiểu ít",
+      "Thường xuyên khát nước",
+      "Giảm cân và suy yếu",
+      "Nôn mửa, tiêu chảy hoặc táo bón",
+      "Lông xù, xơ rối, sỉ màu",
+      "Mệt mỏi và buồn ngủ",
+      "Hơi thở có mùi khác thường",
+      "Thay đổi hành vi ăn uống"
+    ],
+    "infectious": false,
+    "treatments": [
+      "Điều chỉnh chế độ ăn uống",
+      "Điều trị các triệu chứng như tiêu chảy, nôn mửa, và bệnh nhiễm trùng nếu có",
+      "Điều trị thay thế: cấy ghép thận hoặc sử dụng máy thay thế thận đối với các trường hợp suy thận nặng"
+    ],
+    "drugs": [
+      "ACE inhibitor",
+      "Phosphate binders",
+      "Erythropoietin",
+      "Vitamin D3 analogs"
+    ],
+    "preventions": [
+      "Đảm bảo lượng nước đủ",
+      "Kiểm soát lượng protein và chất béo",
+      "Giảm natri và phospho trong thức ăn",
+      "Điều trị và quản lý các bệnh tiền suy thận",
+      "Theo dõi sức khỏe định kỳ",
+      "Giảm thiểu tác động của thuốc có hại đến thận",
+      "Tạo môi trường sống và hoạt động lành mạnh cho mèo"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "FIP",
+    "causes": ["Gây ra bởi virus Corona mèo (FCoV)"],
+    "symptoms": [
+      "Giảm cân, mất sự ham muốn ăn và mệt mỏi",
+      "Khó thở và các vấn đề về hô hấp",
+      "Các khối u hoặc dấu hiệu viêm nhiễm trên da, lớp sần sùi trên da",
+      "Vấn đề tiêu hóa như tiêu chảy hoặc táo bón",
+      "Mất thính giác hoặc vấn đề về thị lực",
+      "Triệu chứng thần kinh như co giật, rối loạn cử động hoặc thay đổi hành vi"
+    ],
+    "infectious": false,
+    "treatments": [
+      "Cung cấp chế độ ăn dinh dưỡng",
+      "Đảm bảo điều kiện sống thoải mái",
+      "Theo dõi sát sao và chăm sóc y tế định kỳ",
+      "Sử dụng thuốc chống viêm như corticosteroid",
+      "Hỗ trợ miễn dịch bằng interferon hoặc Life Gold của Pet Wellbeing",
+      "Điều trị chủ đạo bằng GS-441524 hoặc remdesivir trong một số trường hợp đặc biệt"
+    ],
+    "drugs": [
+      "Corticosteroid (thuốc chống viêm)",
+      "Interferon",
+      "Life Gold của Pet Wellbeing",
+      "GS-441524",
+      "Remdesivir"
+    ],
+    "preventions": [
+      "Thường xuyên vệ sinh nơi ở cho thú cưng",
+      "Đưa mèo đi tiêm phòng đầy đủ",
+      "Cung cấp khẩu phần ăn hợp lý cho mèo",
+      "Tạo không gian sống thoải mái để mèo phát triển"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Nhiễm E.coli",
+    "causes": [
+      "Thiếu sữa non của mèo mẹ",
+      "Di truyền từ mèo mẹ",
+      "Trầm cảm",
+      "Mất nước"
+    ],
+    "symptoms": [
+      "Chán ăn",
+      "Nôn mửa",
+      "Nhịp tim nhanh",
+      "Yếu",
+      "Lờ phờ",
+      "Tiêu chảy nước",
+      "Da lạnh do thân nhiệt thấp",
+      "Niêm mạc chuyển thành màu xanh"
+    ],
+    "infectious": true,
+    "treatments": [
+      "Cần chăm sóc điều dưỡng tốt, tiêm các chất dịch cân bằng để phục hồi dịch cơ thể",
+      "Thuốc kháng sinh: Amoxicillin-clavulanate, Enrofloxacin (cẩn thận với mèo, liều cao có thể gây tác dụng phụ), Cefovecin (tiêm, hiệu quả kéo dài), Doxycycline",
+      "Thuốc bổ trợ: Probiotics, Bù nước và điện giải, Dung dịch glucose"
+    ],
+    "drugs": [
+      "Amoxicillin-clavulanate",
+      "Enrofloxacin",
+      "Cefovecin",
+      "Doxycycline",
+      "Probiotics",
+      "Dung dịch glucose"
+    ],
+    "preventions": [
+      "Đảm bảo mèo mẹ có tình trạng sức khỏe và dinh dưỡng tốt",
+      "Môi trường sinh nở sạch sẽ và vệ sinh",
+      "Bộ nệm ngủ nên được thay thường xuyên sau khi sinh con",
+      "Cho mèo con bú sữa non đầy đủ",
+      "Rửa tay trước khi tiếp xúc mèo sơ sinh để bảo vệ hệ miễn dịch đang phát triển của chúng"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Bệnh dại",
+    "causes": [
+      "Do virus dại (Rabies virus) gây ra, thường lây truyền qua vết cắn hoặc vết trầy xước từ động vật bị nhiễm bệnh",
+      "Virus dại lây truyền qua nước bọt của động vật nhiễm bệnh, chủ yếu qua vết cắn. Các động vật hoang dã như dơi, cáo, chồn hôi và chó hoang là nguồn lây nhiễm chính"
+    ],
+    "symptoms": [
+      "Thu mình, lo lắng và nhút nhát",
+      "Dễ kích động, mất phương hướng",
+      "Dễ cáu kỉnh, hung tợn, thậm chí cắn cả chủ nuôi",
+      "Cắn xé đồ đạc một cách điên loạn",
+      "Sợ ánh sáng, bị co giật, suy hô hấp",
+      "Di chuyển chậm chạp, buồn rầu"
+    ],
+    "infectious": true,
+    "treatments": [
+      "Cách ly mèo, tránh tiếp xúc với người và con vật khác",
+      "Liên hệ ngay với bác sĩ thú y hoặc cơ quan chức năng để được hướng dẫn cách xử lý an toàn",
+      "Tiêm phòng vắc xin đầy đủ ngay khi mèo được 2 tháng tuổi",
+      "Giữ mèo trong nhà, không thả rông",
+      "Vệ sinh chỗ ở và nơi đi vệ sinh của mèo để virus không có chỗ trú ẩn"
+    ],
+    "drugs": [],
+    "preventions": [
+      "Tiêm phòng vắc xin đầy đủ cho mèo ngay từ 2 tháng tuổi",
+      "Giữ mèo trong nhà, không thả rông",
+      "Vệ sinh sạch sẽ nơi ở và nơi đi vệ sinh của mèo"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Cúm mèo",
+    "causes": [
+      "Feline herpesvirus (FHV) được lây truyền giữa các cá thể mèo qua:",
+      "Tiếp xúc trực tiếp với nước bọt, dịch tiết từ mắt và mũi",
+      "Hít phải dịch hắt hơi",
+      "Sử dụng chung tô thức ăn và khay vệ sinh",
+      "Môi trường sống bị ô nhiễm (bao gồm các vật dụng chăm sóc lông và tấm trải ổ nệm)"
+    ],
+    "symptoms": [
+      "Hắt hơi, chảy nước mũi",
+      "Mắt đỏ, chảy nước mắt",
+      "Sốt, mệt mỏi, kém ăn",
+      "Có thể kèm loét miệng hoặc lở loét quanh mũi"
+    ],
+    "infectious": true,
+    "treatments": [
+      "Bù nước: Truyền dịch như Ringer Lactate hoặc dung dịch glucose. Khuyến khích uống nước bằng cách dùng nước hầm xương hoặc thức ăn ướt",
+      "Dinh dưỡng: Cung cấp thức ăn mềm, dễ tiêu và có mùi hấp dẫn (ví dụ: pate mèo). Nếu mèo bỏ ăn, có thể dùng thuốc kích thích ăn uống như Mirtazapine hoặc Cyproheptadine",
+      "Tăng cường sức đề kháng: Bổ sung Vitamin B-complex, Lysine (hỗ trợ kháng virus Herpes)",
+      "Liệu pháp chống virus toàn thân: famciclovir",
+      "Liệu pháp chống virus trực tiếp qua mắt: idoxuridine, trifluridine và cidofovir"
+    ],
+    "drugs": [
+      "Famciclovir (chống virus toàn thân)",
+      "Idoxuridine, trifluridine, cidofovir (chống virus trực tiếp qua mắt)",
+      "Mirtazapine, Cyproheptadine (kích thích ăn uống)"
+    ],
+    "preventions": [
+      "Tiêm chủng để phòng bệnh do FHV, đối với mèo con nên tiêm 2 hoặc 3 mũi bắt đầu từ 8 tuần tuổi",
+      "Tiêm nhắc lại lúc 1 năm tuổi, và sau cần được tái chủng định kỳ 1-3 năm/lần"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cường giáp (Hyperthyroidism)",
+    "causes": "Sự gia tăng sản xuất hormone tuyến giáp từ các tuyến giáp nằm ở cổ.",
+    "symptoms": {
+      "Hầu hết": [
+        "Giảm cân",
+        "Thường cảm giác ngon miệng hoặc tăng cảm giác thèm ăn (polyphagia)",
+        "Tăng khát (polydipsia)",
+        "Tăng hoạt động, bồn chồn hoặc cáu kỉnh",
+        "Tăng nhịp tim (tachycardia)",
+        "Bộ lông xơ xác, không được chải chuốt",
+        "Tiêu chảy nhẹ đến trung bình",
+        "Nôn mửa nhẹ đến trung bình"
+      ],
+      "Một số trường hợp": ["Suy nhược toàn thân", "Thờ ơ", "Chán ăn"]
+    },
+    "infectious": false,
+    "treatments": [
+      "Dùng thuốc",
+      "Phẫu thuật cắt bỏ các mô bị ảnh hưởng (cắt bỏ tuyến giáp)",
+      "Iodine phóng xạ",
+      "Ăn kiêng (cần bác sĩ chỉ định không làm tại nhà): Khống chế lượng i-ốt trong chế độ ăn của mèo. (thức ăn gợi ý: y/d Cat Food)"
+    ],
+    "drugs": [
+      "Không có biện pháp phòng ngừa nào được biết đến đối với bệnh cường giáp",
+      "Chẩn đoán sớm sẽ làm giảm các vấn đề thứ phát và cải thiện tiên lượng",
+      "Kiểm tra sức khỏe định kỳ 6 tháng 1 lần"
+    ],
+    "preventions": [
+      "Không có biện pháp phòng ngừa nào được biết đến đối với bệnh cường giáp",
+      "Chẩn đoán sớm sẽ làm giảm các vấn đề thứ phát và cải thiện tiên lượng",
+      "Kiểm tra sức khỏe định kỳ 6 tháng 1 lần"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Hen suyễn",
+    "causes": [
+      "Viêm phế quản",
+      "Dị ứng với các chất tẩy rửa và tạo mùi",
+      "Béo phì",
+      "Viêm phổi",
+      "Do ký sinh trùng",
+      "Di truyền",
+      "Căng thẳng cường độ cao"
+    ],
+    "symptoms": [
+      "Thở nhanh, thở gấp hoặc thở kèm theo tiếng kêu khò khè",
+      "Hơi thở yếu",
+      "Môi và nướu của mèo chuyển sang màu xanh, chứ không đỏ hồng như bình thường",
+      "Cơ thể yếu ớt, kém hoạt bát và mệt mỏi"
+    ],
+    "infectious": false,
+    "treatments": [
+      "Khi mèo nhà bạn mắc hen suyễn, chắc chắn phải đưa chúng đi bác sĩ thú y",
+      "Những lúc mèo lên cơn hen nặng cũng cần lập tức đưa đi cấp cứu"
+    ],
+    "drugs": [
+      "Tiêm vaccine phòng tránh hen suyễn",
+      "Kiểm tra sức khoẻ cho mèo thường xuyên để kiểm tra nội ký sinh",
+      "Giúp mèo có môi trường sống thoải mái, không căng thẳng hay sợ hãi",
+      "Thường xuyên cho mèo đi dạo, chơi đồ chơi",
+      "Tạo không gian sống có độ ẩm ổn định",
+      "Không nên lạm dụng chất tẩy rửa, nước thơm xịt phòng, chất khử mùi, keo xịt tóc… để làm thanh sạch không khí trong nhà",
+      "Không để mèo quá gầy hoặc béo phì",
+      "Hạn chế để mèo tiếp xúc với khói thuốc lá"
+    ],
+    "preventions": [
+      "Tiêm vaccine phòng tránh hen suyễn",
+      "Kiểm tra sức khoẻ cho mèo thường xuyên để kiểm tra nội ký sinh",
+      "Giúp mèo có môi trường sống thoải mái, không căng thẳng hay sợ hãi",
+      "Thường xuyên cho mèo đi dạo, chơi đồ chơi",
+      "Tạo không gian sống có độ ẩm ổn định",
+      "Không nên lạm dụng chất tẩy rửa, nước thơm xịt phòng, chất khử mùi, keo xịt tóc… để làm thanh sạch không khí trong nhà",
+      "Không để mèo quá gầy hoặc béo phì",
+      "Hạn chế để mèo tiếp xúc với khói thuốc lá"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Bệnh tiểu đường ở mèo",
+    "causes": [
+      "Do thiếu insulin nội tiết tố hoặc đáp ứng không đầy đủ với insulin"
+    ],
+    "symptoms": [
+      "Uống nước nhiều hơn bình thường",
+      "Đói và thèm ăn",
+      "Đi tiểu nhiều",
+      "Mệt mỏi và thiếu năng lượng: lười nhác vận động và ngủ nhiều",
+      "Chi sau hoạt động yếu kém: di chuyển với các bước đi nặng nề mất tự nhiên"
+    ],
+    "infectious": false,
+    "treatments": [
+      "Điều chỉnh chế độ ăn uống hợp lý cho thú cưng: Chế độ ăn nhiều chất xơ sẽ giúp cho con vật dễ tiêu hoá hơn",
+      "Điều trị bệnh tiểu đường ở chó mèo bằng insulin: 2 lần/ngày cách nhau 12 giờ (phương pháp chính)",
+      "Tăng luyện tập cơ bắp mỗi ngày cho thú sẽ cải thiện phản ứng cho thú trong việc điều trị bằng insulin. Thời gian thường là 2 lần/ngày, mỗi lần 30 phút, tùy thuộc vào giống mèo mà bạn nuôi"
+    ],
+    "drugs": [
+      "Một chế độ ăn uống hợp lý",
+      "Tập thể dục thường xuyên",
+      "Tránh thừa cân, béo phì"
+    ],
+    "preventions": [
+      "Một chế độ ăn uống hợp lý",
+      "Tập thể dục thường xuyên",
+      "Tránh thừa cân, béo phì"
+    ]
+  }
+]

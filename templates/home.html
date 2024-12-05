@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care your cat</title>
+    <link rel="stylesheet" href="static\css\styles.css">
+    <script>
+        let allSymptoms = []; // List of all symptoms fetched from the backend
+        let selectedSymptoms = []; // List of selected symptoms
+
+        // Fetch all symptoms from the backend
+        async function fetchSymptoms() {
+            const response = await fetch("/get_symptoms");
+            allSymptoms = await response.json();
+            displaySymptoms(allSymptoms);
+        }
+
+        // Display symptoms in the symptom list
+        function displaySymptoms(symptoms) {
+            const symptomList = document.getElementById("symptom-list");
+            symptomList.innerHTML = "";
+            symptoms.forEach(symptom => {
+                const symptomDiv = document.createElement("div");
+                symptomDiv.innerHTML = `
+                    <span>${symptom}</span>
+                    <button onclick="selectSymptom('${symptom}')">Add</button>
+                `;
+                symptomList.appendChild(symptomDiv);
+            });
+        }
+
+        // Filter symptoms based on search input
+        function searchSymptoms() {
+            const query = document.getElementById("search").value.toLowerCase();
+            const filteredSymptoms = allSymptoms.filter(symptom => symptom.toLowerCase().includes(query));
+            displaySymptoms(filteredSymptoms);
+        }
+
+        // Add symptom to the selected list
+        function selectSymptom(symptom) {
+            if (!selectedSymptoms.includes(symptom)) {
+                selectedSymptoms.push(symptom);
+                updateSelectedSymptoms();
+            }
+        }
+
+        // Remove symptom from the selected list
+        function removeSymptom(symptom) {
+            selectedSymptoms = selectedSymptoms.filter(s => s !== symptom);
+            updateSelectedSymptoms();
+        }
+
+        function updateSelectedSymptoms() {
+            const selectedList = document.getElementById("selected-symptoms");
+            selectedList.innerHTML = "";
+            selectedSymptoms.forEach(symptom => {
+                const symptomDiv = document.createElement("div");
+                symptomDiv.innerHTML = `
+                    <span>${symptom}</span>
+                    <button onclick="removeSymptom('${symptom}')">Remove</button>
+                `;
+                selectedList.appendChild(symptomDiv);
+            });
+        }
+
+
+        // Submit selected symptoms to find diseases
+        async function findDiseases() {
+            const threshold = document.getElementById("threshold").value;
+            const response = await fetch("/find_diseases", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ symptoms: selectedSymptoms, threshold: parseInt(threshold) })
+            });
+            const result = await response.json();
+            const resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = "<h3>Possible Diseases:</h3>";
+            result.forEach(disease => {
+                resultDiv.innerHTML += `<p>${disease[0]} (Matches: ${disease[1]})</p>`;
+                resultDiv.innerHTML += `<p>${disease[2]}</p>`;
+            });
+        }
+
+        // Initialize the app
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchSymptoms();
+        });
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center;">Take Care Of Your Cats</h1>
+    <h2>Symptoms Finder</h2>
+    <div>
+        <label for="search">Search for symptoms:</label>
+        <input type="text" id="search" onkeyup="searchSymptoms()" placeholder="Type to search symptoms">
+    </div>
+    <div id="symptom-list"></div>
+
+    <h2>Selected Symptoms:</h2>
+    <div id="selected-symptoms" style="margin-bottom: 20px;"></div>
+
+    <label for="threshold">Threshold (%):</label>
+    <input type="number" id="threshold" name="threshold" value="80">
+    <br>
+    <button onclick="findDiseases()">Find Diseases</button>
+    <div id="result" style="margin-top: 20px;"></div>
+</body>
+</html>
