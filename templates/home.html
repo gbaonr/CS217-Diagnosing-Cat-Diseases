@@ -30,12 +30,32 @@
             });
         }
 
-        // Filter symptoms based on search input
-        function searchSymptoms() {
-            const query = document.getElementById("search").value.toLowerCase();
-            const filteredSymptoms = allSymptoms.filter(symptom => symptom.toLowerCase().includes(query));
-            displaySymptoms(filteredSymptoms);
+
+        // Gửi yêu cầu đến backend để tìm triệu chứng
+        async function searchSymptomsBackend() {
+            const query = document.getElementById("search").value.toLowerCase(); // Lấy giá trị từ ô tìm kiếm
+            try {
+                const response = await fetch('/search_symptoms', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query, all_symptoms: allSymptoms }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.status}`);
+                }
+
+                const data = await response.json();
+                displaySymptoms(data.filtered_symptoms); // Hiển thị danh sách triệu chứng đã lọc
+                // return data.filtered_symptoms; // Trả về danh sách triệu chứng
+            } catch (error) {
+                console.error('Error searching symptoms:', error);
+                return [];
+            }
         }
+
 
         // Add symptom to the selected list
         function selectSymptom(symptom) {
@@ -95,7 +115,7 @@
     <h2>Symptoms Finder</h2>
     <div>
         <label for="search">Search for symptoms:</label>
-        <input type="text" id="search" onkeyup="searchSymptoms()" placeholder="Type to search symptoms">
+        <input type="text" id="search" onkeyup="searchSymptomsBackend()" placeholder="Type to search symptoms">
     </div>
     <div id="symptom-list"></div>
 

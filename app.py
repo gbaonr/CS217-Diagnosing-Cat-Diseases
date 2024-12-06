@@ -33,5 +33,27 @@ def find_diseases_route():
     return jsonify(possible_diseases)
 
 
+# API nhận dữ liệu từ frontend
+@app.route("/search_symptoms", methods=["POST"])
+def search_symptoms_api():
+    try:
+        # Lấy dữ liệu JSON từ yêu cầu
+        data = request.get_json()
+        all_symptoms = data.get("all_symptoms", [])
+        query = data.get("query", "")
+
+        # Kiểm tra dữ liệu đầu vào
+        if not isinstance(all_symptoms, list) or not isinstance(query, str):
+            return jsonify({"error": "Invalid input"}), 400
+
+        # Gọi hàm search_symptoms
+        filtered_symptoms = search_symptoms(all_symptoms, query)
+
+        # Trả về kết quả
+        return jsonify({"filtered_symptoms": filtered_symptoms}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)

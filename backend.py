@@ -3,6 +3,7 @@ import json
 import sys
 import io
 import os
+import unicodedata
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
@@ -29,3 +30,22 @@ def find_diseases(user_symptoms, data, threshold=80):
 
     possible_diseases.sort(key=lambda x: x[1], reverse=True)
     return possible_diseases
+
+
+def search_symptoms(all_symptoms, query):
+    query = query.lower()
+    query = unicodedata.normalize("NFC", query)
+
+    all_symptoms = [
+        unicodedata.normalize("NFC", symptom.lower()) for symptom in all_symptoms
+    ]
+    results = []
+    for symptom in all_symptoms:
+        if query in symptom:
+            results.append(symptom)
+            continue
+        if fuzz.partial_ratio(query, symptom) >= 80:
+            results.append(symptom)
+            continue
+
+    return results
