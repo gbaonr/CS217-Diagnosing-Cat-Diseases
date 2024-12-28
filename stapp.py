@@ -12,7 +12,7 @@ import unicodedata
 
 
 # Load dữ liệu triệu chứng từ file JSON
-def load_symptoms(file_path="cat_diseases.json"):
+def load_symptoms(file_path="diseases_info.json"):
     with open(file_path, "r", encoding="utf-8") as file:
         symptoms = json.load(file)
     return symptoms
@@ -37,7 +37,8 @@ def main():
 
     # Additional description
     search_query = st.text_input(
-        "Mô tả thêm", placeholder="Nhập từ khóa để tìm triệu chứng..."
+        "Mô tả thêm, ngắn gọn, phân cách bằng dấu phẩy",
+        placeholder="Nhấn để nhập mô tả...",
     )
 
     # Tìm kiếm triệu chứng và chọn từ danh sách

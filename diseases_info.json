@@ -26,7 +26,7 @@
       "Vệ sinh và làm sạch vết thương trước khi bôi thuốc",
       "Hạn chế mèo liếm thuốc ngoài da, sử dụng vòng cổ chống liếm (loa đeo đầu)"
     ],
-    "drugs": [
+    "medicines": [
       "Thuốc mỡ",
       "Thuốc kháng nấm đường uống : Nizoral, Ketoconazol, Flucinazol",
       "Kháng sinh dùng để đề phòng bội nhiễm"
@@ -60,7 +60,7 @@
       "Chải lông hàng ngày",
       "Cho mèo uống nhiều nước"
     ],
-    "drugs": ["Thuốc diệt ký sinh trùng"],
+    "medicines": ["Thuốc diệt ký sinh trùng"],
     "preventions": ["Giữ vệ sinh nơi ở của mèo"]
   },
   {
@@ -91,7 +91,7 @@
       "Dùng thuốc chống vi khuẩn",
       "Sử dụng antihistamines, antibiotics, immunomodulators"
     ],
-    "drugs": [
+    "medicines": [
       "Thuốc chống dị ứng",
       "Thuốc chống ký sinh trùng",
       "Thuốc chống nấm",
@@ -133,7 +133,7 @@
       "Điều trị các triệu chứng như tiêu chảy, nôn mửa, và bệnh nhiễm trùng nếu có",
       "Điều trị thay thế: cấy ghép thận hoặc sử dụng máy thay thế thận đối với các trường hợp suy thận nặng"
     ],
-    "drugs": [
+    "medicines": [
       "ACE inhibitor",
       "Phosphate binders",
       "Erythropoietin",
@@ -170,7 +170,7 @@
       "Hỗ trợ miễn dịch bằng interferon hoặc Life Gold của Pet Wellbeing",
       "Điều trị chủ đạo bằng GS-441524 hoặc remdesivir trong một số trường hợp đặc biệt"
     ],
-    "drugs": [
+    "medicines": [
       "Corticosteroid (thuốc chống viêm)",
       "Interferon",
       "Life Gold của Pet Wellbeing",
@@ -209,7 +209,7 @@
       "Thuốc kháng sinh: Amoxicillin-clavulanate, Enrofloxacin (cẩn thận với mèo, liều cao có thể gây tác dụng phụ), Cefovecin (tiêm, hiệu quả kéo dài), Doxycycline",
       "Thuốc bổ trợ: Probiotics, Bù nước và điện giải, Dung dịch glucose"
     ],
-    "drugs": [
+    "medicines": [
       "Amoxicillin-clavulanate",
       "Enrofloxacin",
       "Cefovecin",
@@ -248,7 +248,7 @@
       "Giữ mèo trong nhà, không thả rông",
       "Vệ sinh chỗ ở và nơi đi vệ sinh của mèo để virus không có chỗ trú ẩn"
     ],
-    "drugs": [],
+    "medicines": [],
     "preventions": [
       "Tiêm phòng vắc xin đầy đủ cho mèo ngay từ 2 tháng tuổi",
       "Giữ mèo trong nhà, không thả rông",
@@ -279,7 +279,7 @@
       "Liệu pháp chống virus toàn thân: famciclovir",
       "Liệu pháp chống virus trực tiếp qua mắt: idoxuridine, trifluridine và cidofovir"
     ],
-    "drugs": [
+    "medicines": [
       "Famciclovir (chống virus toàn thân)",
       "Idoxuridine, trifluridine, cidofovir (chống virus trực tiếp qua mắt)",
       "Mirtazapine, Cyproheptadine (kích thích ăn uống)"
@@ -313,7 +313,7 @@
       "Iodine phóng xạ",
       "Ăn kiêng (cần bác sĩ chỉ định không làm tại nhà): Khống chế lượng i-ốt trong chế độ ăn của mèo. (thức ăn gợi ý: y/d Cat Food)"
     ],
-    "drugs": [
+    "medicines": [
       "Không có biện pháp phòng ngừa nào được biết đến đối với bệnh cường giáp",
       "Chẩn đoán sớm sẽ làm giảm các vấn đề thứ phát và cải thiện tiên lượng",
       "Kiểm tra sức khỏe định kỳ 6 tháng 1 lần"
@@ -347,7 +347,7 @@
       "Khi mèo nhà bạn mắc hen suyễn, chắc chắn phải đưa chúng đi bác sĩ thú y",
       "Những lúc mèo lên cơn hen nặng cũng cần lập tức đưa đi cấp cứu"
     ],
-    "drugs": [
+    "medicines": [
       "Tiêm vaccine phòng tránh hen suyễn",
       "Kiểm tra sức khoẻ cho mèo thường xuyên để kiểm tra nội ký sinh",
       "Giúp mèo có môi trường sống thoải mái, không căng thẳng hay sợ hãi",
@@ -387,7 +387,7 @@
       "Điều trị bệnh tiểu đường ở chó mèo bằng insulin: 2 lần/ngày cách nhau 12 giờ (phương pháp chính)",
       "Tăng luyện tập cơ bắp mỗi ngày cho thú sẽ cải thiện phản ứng cho thú trong việc điều trị bằng insulin. Thời gian thường là 2 lần/ngày, mỗi lần 30 phút, tùy thuộc vào giống mèo mà bạn nuôi"
     ],
-    "drugs": [
+    "medicines": [
       "Một chế độ ăn uống hợp lý",
       "Tập thể dục thường xuyên",
       "Tránh thừa cân, béo phì"
@@ -396,6 +396,90 @@
       "Một chế độ ăn uống hợp lý",
       "Tập thể dục thường xuyên",
       "Tránh thừa cân, béo phì"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Suy giảm bạch cầu - thể quá cấp tính",
+    "causes": ["Virus Felien Pavovirus"],
+    "symptoms": [
+      "Xảy ra đột ngột",
+      "Đau vùng bụng",
+      "Hạ thân nhiệt",
+      "Suy nhược nghiêm trọng"
+    ],
+    "infectious": true,
+    "treatments": [
+      "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
+    ],
+    "medicines": ["Các biện pháp cấp cứu của chuyên gia"],
+    "preventions": [
+      "Vệ sinh thú y thường xuyên",
+      "Tiêm vaccine phòng bệnh cho mèo từ 4 tuần tuổi trở lên, sau 4 tuần tiếp theo tiêm lại.",
+      "Mèo trên 1 năm tuổi tiêm mỗi năm 1 lần."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Suy giảm bạch cầu - thể cấp tính",
+    "causes": ["Virus Felien Pavovirus"],
+    "symptoms": [
+      "sốt cao",
+      "Bỏ ăn",
+      "Niêm mạc nhợt nhạt",
+      "Rối loạn tiêu hóa",
+      "Khát nước dữ dội",
+      "Nôn ra mật có bọt",
+      "Tiêu chảy nặng",
+      "Phân đôi khi lẫn máu",
+      "Đau vùng bụng",
+      "Thân nhiệt hạ"
+    ],
+    "infectious": true,
+    "treatments": [
+      "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
+    ],
+    "medicines": ["Các biện pháp cấp cứu của chuyên gia"],
+    "preventions": [
+      "Vệ sinh thú y thường xuyên",
+      "Tiêm vaccine phòng bệnh cho mèo từ 4 tuần tuổi trở lên, sau 4 tuần tiếp theo tiêm lại.",
+      "Mèo trên 1 năm tuổi tiêm mỗi năm 1 lần."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Suy giảm bạch cầu - thể ẩn tính",
+    "causes": ["Virus Felien Pavovirus"],
+    "symptoms": [
+      "sốt nhẹ",
+      "không đi kèm triệu chứng nào khác",
+      "mèo trường thành"
+    ],
+    "infectious": true,
+    "treatments": [
+      "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
+    ],
+    "medicines": ["Các biện pháp cấp cứu của chuyên gia"],
+    "preventions": [
+      "Vệ sinh thú y thường xuyên",
+      "Tiêm vaccine phòng bệnh cho mèo từ 4 tuần tuổi trở lên, sau 4 tuần tiếp theo tiêm lại.",
+      "Mèo trên 1 năm tuổi tiêm mỗi năm 1 lần."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Suy giảm bạch cầu - thể thần kinh",
+    "causes": ["Virus Felien Pavovirus"],
+    "symptoms": ["mèo con", "yếu ớt", "mất khả năng điều hòa vận động"],
+    "infectious": true,
+    "treatments": [
+      "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
+    ],
+    "medicines": ["Các biện pháp cấp cứu của chuyên gia"],
+    "preventions": [
+      "Vệ sinh thú y thường xuyên",
+      "Tiêm vaccine phòng bệnh cho mèo từ 4 tuần tuổi trở lên, sau 4 tuần tiếp theo tiêm lại.",
+      "Mèo trên 1 năm tuổi tiêm mỗi năm 1 lần."
     ]
   }
 ]
