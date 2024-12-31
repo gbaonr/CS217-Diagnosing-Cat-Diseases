@@ -8,6 +8,8 @@ import pandas as pd
 from fuzzywuzzy import fuzz  # Hoặc dùng rapidfuzz
 import unicodedata
 
+from utils import *
+
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 
@@ -20,12 +22,11 @@ def load_symptoms(file_path="diseases_info.json"):
 
 # Giao diện chính
 def main():
-    st.title("Triệu chứng chăm sóc mèo")
+    st.title(":blue[Cat Disease Diagnosis]")
     st.write(
-        "Ứng dụng giúp tìm kiếm và lựa chọn các triệu chứng để tìm ra bệnh phù hợp."
+        ":rainbow[Chẩn đoán bệnh cho mèo từ triệu chứng bên ngoài. Phần mềm này không thay thế cho việc chẩn đoán của bác sĩ.]"
     )
 
-    # Load triệu chứng từ file JSON (đảm bảo bạn có file `symptoms.json`)
     data = load_symptoms()
     symptoms = []
     for disease in data:
@@ -37,13 +38,14 @@ def main():
 
     # Additional description
     search_query = st.text_input(
-        "Mô tả thêm, ngắn gọn, phân cách bằng dấu phẩy",
+        "Mô tả triệu chứng, ngắn gọn, phân cách bằng dấu phẩy",
         placeholder="Nhấn để nhập mô tả...",
     )
 
     # Tìm kiếm triệu chứng và chọn từ danh sách
     selected_symptoms = st.multiselect(
-        "Chọn triệu chứng:",
+        "Hoặc chọn các triệu chứng có sẵn",
+        placeholder="Nhấn để chọn...",
         options=symptoms,
         default=[],
         label_visibility="visible",
@@ -67,9 +69,58 @@ def main():
     # Diagnose button
     st.write("### Chẩn đoán")
     if st.button("Chẩn đoán"):
-        st.write("Chức năng chẩn đoán đang được phát triển.")
-        symptoms = st.session_state.selected_symptoms
-        st.write(symptoms)
+        chosens = st.session_state.selected_symptoms
+        if not search_query:
+            search_query = ""
+
+        possible_diseases = diagnose(chosens, search_query)
+        diseases = get_info(possible_diseases, n_show=3)
+
+        st.markdown("### Kết quả chẩn đoán")
+
+        if len(diseases) == 0:
+            st.write(":red[Không tìm thấy bệnh phù hợp với triệu chứng đã chọn.]")
+            return
+
+        # Hiển thị thông tin từng bệnh
+        imgs = os.listdir("images")
+        for disease in diseases:
+            # path = f"images/{disease['id']}.jpg"
+            path = f"images/ill_cat.jpg"
+            with st.expander(
+                f"{disease['name'].upper()} ({disease['score'] * 100:.2f}%)",
+                expanded=False,
+            ):
+                i = disease["id"]
+                if f"{i}.jpg" in imgs:
+                    path = f"images/{i}.jpg"
+                elif f"{i}.png" in imgs:
+                    path = f"images/{i}.png"
+                elif f"{i}.jpeg" in imgs:
+                    path = f"images/{i}.jpeg"
+                else:
+                    path = "images/ill_cat.jpg"
+                # st.image(path, caption=path, use_container_width=True)
+                st.image(path, caption=f"{disease['name']}", use_container_width=True)
+
+                st.write("#### Triệu chứng")
+                st.markdown("- " + "\n- ".join(disease["symptoms"]))
+
+                st.write("#### Nguyên nhân")
+                st.markdown("- " + "\n- ".join(disease["causes"]))
+
+                st.write("#### Lây nhiễm")
+                infectious_text = "Có" if disease["infectious"] else "Không"
+                st.write(f"**Lây nhiễm:** {infectious_text}")
+
+                st.write("#### Phương pháp điều trị")
+                st.markdown("- " + "\n- ".join(disease["treatments"]))
+
+                st.write("#### Thuốc")
+                st.markdown("- " + "\n- ".join(disease["medicines"]))
+
+                st.write("#### Phòng ngừa")
+                st.markdown("- " + "\n- ".join(disease["preventions"]))
 
 
 if __name__ == "__main__":

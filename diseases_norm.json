@@ -1,0 +1,135 @@
+[
+  {
+    "id": 0,
+    "symptoms": [
+      "rụng lông",
+      "ngứa",
+      "đốm",
+      "mủ",
+      "hôi",
+      "giảm cân",
+      "sốt",
+      "biếng ăn",
+      "khó thở",
+      "lười vận động"
+    ]
+  },
+  {
+    "id": 1,
+    "symptoms": ["rụng lông", "dữ"]
+  },
+  {
+    "id": 2,
+    "symptoms": [
+      "da đỏ",
+      "sưng",
+      "đốm",
+      "mủ",
+      "rụng lông",
+      "kí sinh",
+      "bong vảy"
+    ]
+  },
+  {
+    "id": 3,
+    "symptoms": [
+      "tiêu chảy",
+      "ăn uống thất thường",
+      "giảm cân",
+      "nôn mửa",
+      "lười vận động",
+      "mùi"
+    ]
+  },
+  {
+    "id": 4,
+    "symptoms": [
+      "giảm cân",
+      "lười vận động",
+      "khó thở",
+      "sưng",
+      "viêm nhiễm",
+      "da đỏ",
+      " tiêu chảy",
+      "táo bón",
+      "rối loạn tiêu hóa",
+      "vấn đề về thị lực",
+      "triệu chứng thần kinh"
+    ]
+  },
+  {
+    "id": 5,
+    "symptoms": [
+      "tiêu chảy",
+      "biếng ăn",
+      "nôn mửa",
+      " nhịp tim nhanh",
+      "lười vận động",
+      "thân nhiệt hạ",
+      "vấn đề thị lực"
+    ]
+  },
+  {
+    "id": 6,
+    "symptoms": ["triệu chứng thần kinh", "lười vận động", "dữ"]
+  },
+  {
+    "id": 7,
+    "symptoms": [
+      "chảy nước mũi",
+      "chảy nước mắt",
+      "sốt",
+      "lười vận động",
+      "biếng ăn",
+      "da đỏ"
+    ]
+  },
+  {
+    "id": 8,
+    "symptoms": [
+      "giảm cân",
+      " ăn uống thất thường",
+      " triệu chứng thần kinh",
+      "tăng nhịp tim",
+      "rụng lông",
+      "tiêu chảy",
+      "nôn mửa",
+      "lười vận động",
+      "biếng ăn"
+    ]
+  },
+  {
+    "id": 9,
+    "symptoms": ["khó thở", "môi và nướu đổi màu", "lười vận động"]
+  },
+  {
+    "id": 10,
+    "symptoms": ["ăn uống thất thường", "tiểu nhiều", "lười vận động"]
+  },
+  {
+    "id": 11,
+    "symptoms": ["đột ngột", "đau", "thân nhiệt hạ", "lười vận động"]
+  },
+  {
+    "id": 12,
+    "symptoms": [
+      "sốt",
+      "biếng ăn",
+      "vấn đề thị lực",
+      "rối loạn tiêu hóa",
+      "ăn uống thất thường",
+      "nôn mửa",
+      "tiêu chảy",
+      "đau",
+      "thân nhiệt hạ"
+    ]
+  },
+  {
+    "id": 13,
+    "symptoms": ["sốt", "mèo trường thành", "không đi kèm triệu chứng nào khác"]
+  },
+  {
+    "id": 14,
+    "symptoms": ["mèo con", "mất khả năng điều hòa vận động", "yếu ớt"]
+  }
+]

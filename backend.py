@@ -8,7 +8,7 @@ import unicodedata
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 data = None
-with open("cat_diseases.json", "r", encoding="utf-8") as file:
+with open("diseases_info.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 
@@ -49,3 +49,10 @@ def search_symptoms(all_symptoms, query):
             continue
 
     return results
+
+
+with open("diseases_info.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
+
+for d in data:
+    print(f"{d['id']}: {d['name']}")

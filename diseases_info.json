@@ -453,7 +453,7 @@
     "symptoms": [
       "sốt nhẹ",
       "không đi kèm triệu chứng nào khác",
-      "mèo trường thành"
+      "xuất hiện ở mèo trường thành"
     ],
     "infectious": true,
     "treatments": [
@@ -470,7 +470,11 @@
     "id": 14,
     "name": "Suy giảm bạch cầu - thể thần kinh",
     "causes": ["Virus Felien Pavovirus"],
-    "symptoms": ["mèo con", "yếu ớt", "mất khả năng điều hòa vận động"],
+    "symptoms": [
+      "xuất hiện ở mèo con",
+      "yếu ớt",
+      "mất khả năng điều hòa vận động"
+    ],
     "infectious": true,
     "treatments": [
       "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
