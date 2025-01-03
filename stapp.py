@@ -14,7 +14,7 @@ from utils import *
 
 
 # Load dữ liệu triệu chứng từ file JSON
-def load_symptoms(file_path="diseases_info.json"):
+def load_symptoms(file_path="data/diseases_info.json"):
     with open(file_path, "r", encoding="utf-8") as file:
         symptoms = json.load(file)
     return symptoms
@@ -69,6 +69,7 @@ def main():
     # Diagnose button
     st.write("### Chẩn đoán")
     if st.button("Chẩn đoán"):
+        print("\n\n\n\nDiagnostic results:")
         chosens = st.session_state.selected_symptoms
         if not search_query:
             search_query = ""

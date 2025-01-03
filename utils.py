@@ -3,9 +3,12 @@ import os
 import unicodedata
 from rapidfuzz import fuzz, process
 
+PATH = "data"
+
 
 # Create normalization table and words
 def create_norm_table(file_path="inferences.json"):
+    file_path = os.path.join(PATH, file_path)
     with open(file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
     words = []
@@ -62,7 +65,7 @@ def norm_chosen(chosens, words, norm_table):
                 print(f"\t\tword({best_match[0]}): {best_match[1]} -> {best_match[2]}")
                 norm_chosens.append(best_match[1])
 
-    print(f"\nNorm chosens: {norm_chosens}\n")
+    print(f"Norm chosens: {norm_chosens}\n")
 
     return norm_chosens
 
@@ -89,7 +92,7 @@ def norm_discription(discription, words, norm_table):
             print(f"\t\tword({best_match[0]}): {best_match[1]} -> {best_match[2]}")
             norm_discriptions.append(best_match[1])
 
-    print(f"\nNorm discription: {norm_discriptions}\n")
+    print(f"Norm discription: {norm_discriptions}\n")
 
     return norm_discriptions
 
@@ -102,7 +105,8 @@ def diagnose(chosens, discription):
 
     input_symptoms = set(norm_chosens + norm_discriptions)
 
-    with open("diseases_norm.json", "r", encoding="utf-8") as file:
+    path = os.path.join(PATH, "diseases_norm.json")
+    with open(path, "r", encoding="utf-8") as file:
         data = json.load(file)
     possible_diseases = []
     for disease in data:
@@ -128,7 +132,7 @@ def get_info(possible_diseases, n_show=3):
         :n_show
     ]
 
-    with open("diseases_info.json", "r", encoding="utf-8") as file:
+    with open(os.path.join(PATH, "diseases_info.json"), "r", encoding="utf-8") as file:
         data = json.load(file)
 
     for disease in sorted_diseases:
