@@ -1,0 +1,123 @@
+[
+    {
+        "0": [
+            "Thường xuyên tắm nắng cho mèo",
+            "Giữ vệ sinh sạch sẽ, khô ráo khu vực nuôi mèo",
+            "Sấy khô lông cho mèo sau khi tắm",
+            "Trong những ngày độ ẩm cao, giữ mèo ở nơi khô ráo",
+            "Cách ly và chăm sóc đặc biệt cho mèo có biểu hiện ngứa",
+            "Không tiếp xúc với mèo nghi bị nấm hoặc đeo găng tay khi tiếp xúc",
+            "Khám sức khỏe mèo thường xuyên"
+        ]
+    },
+    {
+        "1": [
+            "Giữ vệ sinh nơi ở của mèo"
+        ]
+    },
+    {
+        "2": [
+            "Chế độ dinh dưỡng cân đối",
+            "Vệ sinh lông da",
+            "Chăm sóc lông đúng cách",
+            "Giữ môi trường sạch sẽ",
+            "Tư vấn thú y định kỳ",
+            "Tránh sử dụng các sản phẩm không phù hợp cho da"
+        ]
+    },
+    {
+        "3": [
+            "Đảm bảo lượng nước đủ",
+            "Kiểm soát lượng protein và chất béo",
+            "Giảm natri và phospho trong thức ăn",
+            "Điều trị và quản lý các bệnh tiền suy thận",
+            "Theo dõi sức khỏe định kỳ",
+            "Giảm thiểu tác động của thuốc có hại đến thận",
+            "Tạo môi trường sống và hoạt động lành mạnh cho mèo"
+        ]
+    },
+    {
+        "4": [
+            "Thường xuyên vệ sinh nơi ở cho thú cưng",
+            "Đưa mèo đi tiêm phòng đầy đủ",
+            "Cung cấp khẩu phần ăn hợp lý cho mèo",
+            "Tạo không gian sống thoải mái để mèo phát triển"
+        ]
+    },
+    {
+        "5": [
+            "Đảm bảo mèo mẹ có tình trạng sức khỏe và dinh dưỡng tốt",
+            "Môi trường sinh nở sạch sẽ và vệ sinh",
+            "Bộ nệm ngủ nên được thay thường xuyên sau khi sinh con",
+            "Cho mèo con bú sữa non đầy đủ",
+            "Rửa tay trước khi tiếp xúc mèo sơ sinh để bảo vệ hệ miễn dịch đang phát triển của chúng"
+        ]
+    },
+    {
+        "6": [
+            "Tiêm phòng vắc xin đầy đủ cho mèo ngay từ 2 tháng tuổi",
+            "Giữ mèo trong nhà, không thả rông",
+            "Vệ sinh sạch sẽ nơi ở và nơi đi vệ sinh của mèo"
+        ]
+    },
+    {
+        "7": [
+            "Tiêm chủng để phòng bệnh do FHV, đối với mèo con nên tiêm 2 hoặc 3 mũi bắt đầu từ 8 tuần tuổi",
+            "Tiêm nhắc lại lúc 1 năm tuổi, và sau cần được tái chủng định kỳ 1-3 năm/lần"
+        ]
+    },
+    {
+        "8": [
+            "Không có biện pháp phòng ngừa nào được biết đến đối với bệnh cường giáp",
+            "Chẩn đoán sớm sẽ làm giảm các vấn đề thứ phát và cải thiện tiên lượng",
+            "Kiểm tra sức khỏe định kỳ 6 tháng 1 lần"
+        ]
+    },
+    {
+        "9": [
+            "Tiêm vaccine phòng tránh hen suyễn",
+            "Kiểm tra sức khoẻ cho mèo thường xuyên để kiểm tra nội ký sinh",
+            "Giúp mèo có môi trường sống thoải mái, không căng thẳng hay sợ hãi",
+            "Thường xuyên cho mèo đi dạo, chơi đồ chơi",
+            "Tạo không gian sống có độ ẩm ổn định",
+            "Không nên lạm dụng chất tẩy rửa, nước thơm xịt phòng, chất khử mùi, keo xịt tóc… để làm thanh sạch không khí trong nhà",
+            "Không để mèo quá gầy hoặc béo phì",
+            "Hạn chế để mèo tiếp xúc với khói thuốc lá"
+        ]
+    },
+    {
+        "10": [
+            "Một chế độ ăn uống hợp lý",
+            "Tập thể dục thường xuyên",
+            "Tránh thừa cân, béo phì"
+        ]
+    },
+    {
+        "11": [
+            "Vệ sinh thú y thường xuyên",
+            "Tiêm vaccine phòng bệnh cho mèo từ 4 tuần tuổi trở lên, sau 4 tuần tiếp theo tiêm lại.",
+            "Mèo trên 1 năm tuổi tiêm mỗi năm 1 lần."
+        ]
+    },
+    {
+        "12": [
+            "Vệ sinh thú y thường xuyên",
+            "Tiêm vaccine phòng bệnh cho mèo từ 4 tuần tuổi trở lên, sau 4 tuần tiếp theo tiêm lại.",
+            "Mèo trên 1 năm tuổi tiêm mỗi năm 1 lần."
+        ]
+    },
+    {
+        "13": [
+            "Vệ sinh thú y thường xuyên",
+            "Tiêm vaccine phòng bệnh cho mèo từ 4 tuần tuổi trở lên, sau 4 tuần tiếp theo tiêm lại.",
+            "Mèo trên 1 năm tuổi tiêm mỗi năm 1 lần."
+        ]
+    },
+    {
+        "14": [
+            "Vệ sinh thú y thường xuyên",
+            "Tiêm vaccine phòng bệnh cho mèo từ 4 tuần tuổi trở lên, sau 4 tuần tiếp theo tiêm lại.",
+            "Mèo trên 1 năm tuổi tiêm mỗi năm 1 lần."
+        ]
+    }
+]

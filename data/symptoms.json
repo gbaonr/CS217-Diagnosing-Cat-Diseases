@@ -1,0 +1,156 @@
+[
+    {
+        "0": [
+            "Rụng lông thành mảng, có màu hồng",
+            "Ngứa ngáy, gãi đến chảy máu",
+            "Thường xuyên cọ sát vào đồ vật",
+            "Vạch lông thấy các đốm đỏ, bong vảy, chảy mủ và có mùi hôi",
+            "Mèo giảm cân",
+            "Sốt",
+            "Biếng ăn",
+            "Khó thở",
+            "Lười vận động"
+        ]
+    },
+    {
+        "1": [
+            "Lông rụng nhiều",
+            "Mèo trở nên khó tính"
+        ]
+    },
+    {
+        "2": [
+            "Nổi mụn trứng cá, thường xuất hiện dưới da tạo thành các đốm đỏ",
+            "Nhiễm khuẩn, da đỏ, sưng và có thể có mủ",
+            "Rụng lông từng mảng",
+            "Có bọ chét, ve tai, rận",
+            "Lông đuôi thưa",
+            "U hạch ái toan, loét lan rộng hoặc tổn thương ở mũi và môi",
+            "Da khô và bong ra từng mảng"
+        ]
+    },
+    {
+        "3": [
+            "Tiểu nhiều hoặc tiểu ít",
+            "Thường xuyên khát nước",
+            "Giảm cân và suy yếu",
+            "Nôn mửa, tiêu chảy hoặc táo bón",
+            "Lông xù, xơ rối, sỉ màu",
+            "Mệt mỏi và buồn ngủ",
+            "Hơi thở có mùi khác thường",
+            "Thay đổi hành vi ăn uống"
+        ]
+    },
+    {
+        "4": [
+            "Giảm cân, mất sự ham muốn ăn và mệt mỏi",
+            "Khó thở và các vấn đề về hô hấp",
+            "Các khối u hoặc dấu hiệu viêm nhiễm trên da, lớp sần sùi trên da",
+            "Vấn đề tiêu hóa như tiêu chảy hoặc táo bón",
+            "Mất thính giác hoặc vấn đề về thị lực",
+            "Triệu chứng thần kinh như co giật, rối loạn cử động hoặc thay đổi hành vi"
+        ]
+    },
+    {
+        "5": [
+            "Chán ăn",
+            "Nôn mửa",
+            "Nhịp tim nhanh",
+            "Yếu",
+            "Lờ phờ",
+            "Tiêu chảy nước",
+            "Da lạnh do thân nhiệt thấp",
+            "Niêm mạc chuyển thành màu xanh"
+        ]
+    },
+    {
+        "6": [
+            "Thu mình, lo lắng và nhút nhát",
+            "Dễ kích động, mất phương hướng",
+            "Dễ cáu kỉnh, hung tợn, thậm chí cắn cả chủ nuôi",
+            "Cắn xé đồ đạc một cách điên loạn",
+            "Sợ ánh sáng, bị co giật, suy hô hấp",
+            "Di chuyển chậm chạp, buồn rầu"
+        ]
+    },
+    {
+        "7": [
+            "Hắt hơi, chảy nước mũi",
+            "Mắt đỏ, chảy nước mắt",
+            "Sốt, mệt mỏi, kém ăn",
+            "Có thể kèm loét miệng hoặc lở loét quanh mũi"
+        ]
+    },
+    {
+        "8": {
+            "Hầu hết": [
+                "Giảm cân",
+                "Thường cảm giác ngon miệng hoặc tăng cảm giác thèm ăn (polyphagia)",
+                "Tăng khát (polydipsia)",
+                "Tăng hoạt động, bồn chồn hoặc cáu kỉnh",
+                "Tăng nhịp tim (tachycardia)",
+                "Bộ lông xơ xác, không được chải chuốt",
+                "Tiêu chảy nhẹ đến trung bình",
+                "Nôn mửa nhẹ đến trung bình"
+            ],
+            "Một số trường hợp": [
+                "Suy nhược toàn thân",
+                "Thờ ơ",
+                "Chán ăn"
+            ]
+        }
+    },
+    {
+        "9": [
+            "Thở nhanh, thở gấp hoặc thở kèm theo tiếng kêu khò khè",
+            "Hơi thở yếu",
+            "Môi và nướu của mèo chuyển sang màu xanh, chứ không đỏ hồng như bình thường",
+            "Cơ thể yếu ớt, kém hoạt bát và mệt mỏi"
+        ]
+    },
+    {
+        "10": [
+            "Uống nước nhiều hơn bình thường",
+            "Đói và thèm ăn",
+            "Đi tiểu nhiều",
+            "Mệt mỏi và thiếu năng lượng: lười nhác vận động và ngủ nhiều",
+            "Chi sau hoạt động yếu kém: di chuyển với các bước đi nặng nề mất tự nhiên"
+        ]
+    },
+    {
+        "11": [
+            "Xảy ra đột ngột",
+            "Đau vùng bụng",
+            "Hạ thân nhiệt",
+            "Suy nhược nghiêm trọng"
+        ]
+    },
+    {
+        "12": [
+            "sốt cao",
+            "Bỏ ăn",
+            "Niêm mạc nhợt nhạt",
+            "Rối loạn tiêu hóa",
+            "Khát nước dữ dội",
+            "Nôn ra mật có bọt",
+            "Tiêu chảy nặng",
+            "Phân đôi khi lẫn máu",
+            "Đau vùng bụng",
+            "Thân nhiệt hạ"
+        ]
+    },
+    {
+        "13": [
+            "sốt nhẹ",
+            "không đi kèm triệu chứng nào khác",
+            "xuất hiện ở mèo trường thành"
+        ]
+    },
+    {
+        "14": [
+            "xuất hiện ở mèo con",
+            "yếu ớt",
+            "mất khả năng điều hòa vận động"
+        ]
+    }
+]
