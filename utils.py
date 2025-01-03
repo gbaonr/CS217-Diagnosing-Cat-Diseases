@@ -35,6 +35,9 @@ def load_symptoms(file_path="data/diseases_info.json"):
     symptoms = []
     for disease in data:
         symptoms.extend(disease["symptoms"])
+
+    symptoms = [X.strip() for X in symptoms]
+    symptoms = [X.capitalize() for X in symptoms]
     return symptoms
 
 
@@ -122,6 +125,7 @@ def norm_discription(discription, words, norm_table, show_=False):
     discription = unicodedata.normalize("NFC", discription.lower())
     parts = discription.strip("?").split(", ")
     parts = [part.strip() for part in parts]
+    parts = [part for part in parts if part != ""]
 
     norm_discriptions = norm_chosen(parts, words, norm_table, show_=show_)
     return norm_discriptions
