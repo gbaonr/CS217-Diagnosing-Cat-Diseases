@@ -6,6 +6,22 @@ from rapidfuzz import fuzz, process
 PATH = "data"
 
 
+# Load dữ liệu triệu chứng từ file JSON
+def load_symptoms_(file_path="data/diseases_info.json"):
+    with open(file_path, "r", encoding="utf-8") as file:
+        symptoms = json.load(file)
+    return symptoms
+
+
+def load_symptoms(file_path="data/diseases_info.json"):
+    with open(file_path, "r", encoding="utf-8") as file:
+        data = json.load(file)
+    symptoms = []
+    for disease in data:
+        symptoms.extend(disease["symptoms"])
+    return symptoms
+
+
 # Create normalization table and words
 def create_norm_table(file_path="inferences.json"):
     file_path = os.path.join(PATH, file_path)

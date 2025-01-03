@@ -13,13 +13,6 @@ from utils import *
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 
-# Load dữ liệu triệu chứng từ file JSON
-def load_symptoms(file_path="data/diseases_info.json"):
-    with open(file_path, "r", encoding="utf-8") as file:
-        symptoms = json.load(file)
-    return symptoms
-
-
 # Giao diện chính
 def main():
     st.title(":blue[Cat Disease Diagnosis]")
@@ -27,10 +20,10 @@ def main():
         ":rainbow[Chẩn đoán bệnh cho mèo từ triệu chứng bên ngoài. Phần mềm này không thay thế cho việc chẩn đoán của bác sĩ.]"
     )
 
-    data = load_symptoms()
-    symptoms = []
-    for disease in data:
-        symptoms.extend(disease["symptoms"])
+    symptoms = load_symptoms()
+    # symptoms = []
+    # for disease in data:
+    #     symptoms.extend(disease["symptoms"])
 
     # Trạng thái lưu danh sách triệu chứng đã chọn
     if "selected_symptoms" not in st.session_state:
