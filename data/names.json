@@ -1,47 +1,17 @@
-[
-    {
-        "0": "Nấm Mèo"
-    },
-    {
-        "1": "Rụng lông"
-    },
-    {
-        "2": "Viêm da"
-    },
-    {
-        "3": "Suy thận"
-    },
-    {
-        "4": "FIP"
-    },
-    {
-        "5": "Nhiễm E.coli"
-    },
-    {
-        "6": "Bệnh dại"
-    },
-    {
-        "7": "Cúm mèo"
-    },
-    {
-        "8": "Cường giáp (Hyperthyroidism)"
-    },
-    {
-        "9": "Hen suyễn"
-    },
-    {
-        "10": "Bệnh tiểu đường ở mèo"
-    },
-    {
-        "11": "Suy giảm bạch cầu - thể quá cấp tính"
-    },
-    {
-        "12": "Suy giảm bạch cầu - thể cấp tính"
-    },
-    {
-        "13": "Suy giảm bạch cầu - thể ẩn tính"
-    },
-    {
-        "14": "Suy giảm bạch cầu - thể thần kinh"
-    }
-]
+{
+  "0": "Nấm Mèo",
+  "1": "Rụng lông",
+  "2": "Viêm da",
+  "3": "Suy thận",
+  "4": "FIP",
+  "5": "Nhiễm E.coli",
+  "6": "Bệnh dại",
+  "7": "Cúm mèo",
+  "8": "Cường giáp (Hyperthyroidism)",
+  "9": "Hen suyễn",
+  "10": "Bệnh tiểu đường ở mèo",
+  "11": "Suy giảm bạch cầu - thể quá cấp tính",
+  "12": "Suy giảm bạch cầu - thể cấp tính",
+  "13": "Suy giảm bạch cầu - thể ẩn tính",
+  "14": "Suy giảm bạch cầu - thể thần kinh"
+}

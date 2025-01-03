@@ -32,7 +32,7 @@ def main():
     # Additional description
     search_query = st.text_input(
         "Mô tả triệu chứng, ngắn gọn, phân cách bằng dấu phẩy",
-        placeholder="Nhấn để nhập mô tả...",
+        placeholder="Nhấn để nhập mô tả bằng tiếng Việt có dấu....",
     )
 
     # Tìm kiếm triệu chứng và chọn từ danh sách

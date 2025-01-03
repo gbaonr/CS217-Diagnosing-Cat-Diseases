@@ -293,19 +293,19 @@
     "id": 8,
     "name": "Cường giáp (Hyperthyroidism)",
     "causes": "Sự gia tăng sản xuất hormone tuyến giáp từ các tuyến giáp nằm ở cổ.",
-    "symptoms": {
-      "Hầu hết": [
-        "Giảm cân",
-        "Thường cảm giác ngon miệng hoặc tăng cảm giác thèm ăn (polyphagia)",
-        "Tăng khát (polydipsia)",
-        "Tăng hoạt động, bồn chồn hoặc cáu kỉnh",
-        "Tăng nhịp tim (tachycardia)",
-        "Bộ lông xơ xác, không được chải chuốt",
-        "Tiêu chảy nhẹ đến trung bình",
-        "Nôn mửa nhẹ đến trung bình"
-      ],
-      "Một số trường hợp": ["Suy nhược toàn thân", "Thờ ơ", "Chán ăn"]
-    },
+    "symptoms": [
+      "Giảm cân",
+      "Thường cảm giác ngon miệng hoặc tăng cảm giác thèm ăn (polyphagia)",
+      "Tăng khát (polydipsia)",
+      "Tăng hoạt động, bồn chồn hoặc cáu kỉnh",
+      "Tăng nhịp tim (tachycardia)",
+      "Bộ lông xơ xác, không được chải chuốt",
+      "Tiêu chảy nhẹ đến trung bình",
+      "Nôn mửa nhẹ đến trung bình",
+      "Suy nhược toàn thân",
+      "Thờ ơ",
+      "Chán ăn"
+    ],
     "infectious": false,
     "treatments": [
       "Dùng thuốc",

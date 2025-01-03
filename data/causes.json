@@ -1,103 +1,61 @@
-[
-    {
-        "0": [
-            "Do ký sinh trùng hoặc các loại nấm",
-            "Vết thương trên da do bọ chét cắn đốt",
-            "Cơ thể suy giảm miễn dịch, liên quan đến các bệnh như ung thư tuyến tụy hoặc gan"
-        ]
-    },
-    {
-        "1": [
-            "Mèo đến tuổi thay lông",
-            "Mèo bị nhiễm ký sinh trùng trên da như ve, bọ chét, ghẻ",
-            "Thay đổi thời tiết",
-            "Mèo bị thay đổi nội tiết tố sau khi triệt sản",
-            "Dung dịch vệ sinh không phù hợp"
-        ]
-    },
-    {
-        "2": [
-            "Do ký sinh trùng",
-            "Do nấm",
-            "Do chế độ dinh dưỡng kém",
-            "Do dị ứng thức ăn, môi trường"
-        ]
-    },
-    {
-        "3": [
-            "Tuổi tác và quá trình lão hóa",
-            "Các bệnh lý tiền suy thận",
-            "Chế độ ăn uống không phù hợp chứa quá nhiều protein, chất béo, muối",
-            "Dùng thuốc có tác động tiêu cực đến thận",
-            "Di truyền",
-            "Chấn thương có thể gây ra suy thận"
-        ]
-    },
-    {
-        "4": [
-            "Gây ra bởi virus Corona mèo (FCoV)"
-        ]
-    },
-    {
-        "5": [
-            "Thiếu sữa non của mèo mẹ",
-            "Di truyền từ mèo mẹ",
-            "Trầm cảm",
-            "Mất nước"
-        ]
-    },
-    {
-        "6": [
-            "Do virus dại (Rabies virus) gây ra, thường lây truyền qua vết cắn hoặc vết trầy xước từ động vật bị nhiễm bệnh",
-            "Virus dại lây truyền qua nước bọt của động vật nhiễm bệnh, chủ yếu qua vết cắn. Các động vật hoang dã như dơi, cáo, chồn hôi và chó hoang là nguồn lây nhiễm chính"
-        ]
-    },
-    {
-        "7": [
-            "Feline herpesvirus (FHV) được lây truyền giữa các cá thể mèo qua:",
-            "Tiếp xúc trực tiếp với nước bọt, dịch tiết từ mắt và mũi",
-            "Hít phải dịch hắt hơi",
-            "Sử dụng chung tô thức ăn và khay vệ sinh",
-            "Môi trường sống bị ô nhiễm (bao gồm các vật dụng chăm sóc lông và tấm trải ổ nệm)"
-        ]
-    },
-    {
-        "8": "Sự gia tăng sản xuất hormone tuyến giáp từ các tuyến giáp nằm ở cổ."
-    },
-    {
-        "9": [
-            "Viêm phế quản",
-            "Dị ứng với các chất tẩy rửa và tạo mùi",
-            "Béo phì",
-            "Viêm phổi",
-            "Do ký sinh trùng",
-            "Di truyền",
-            "Căng thẳng cường độ cao"
-        ]
-    },
-    {
-        "10": [
-            "Do thiếu insulin nội tiết tố hoặc đáp ứng không đầy đủ với insulin"
-        ]
-    },
-    {
-        "11": [
-            "Virus Felien Pavovirus"
-        ]
-    },
-    {
-        "12": [
-            "Virus Felien Pavovirus"
-        ]
-    },
-    {
-        "13": [
-            "Virus Felien Pavovirus"
-        ]
-    },
-    {
-        "14": [
-            "Virus Felien Pavovirus"
-        ]
-    }
-]
+{
+  "0": [
+    "Do ký sinh trùng hoặc các loại nấm",
+    "Vết thương trên da do bọ chét cắn đốt",
+    "Cơ thể suy giảm miễn dịch, liên quan đến các bệnh như ung thư tuyến tụy hoặc gan"
+  ],
+  "1": [
+    "Mèo đến tuổi thay lông",
+    "Mèo bị nhiễm ký sinh trùng trên da như ve, bọ chét, ghẻ",
+    "Thay đổi thời tiết",
+    "Mèo bị thay đổi nội tiết tố sau khi triệt sản",
+    "Dung dịch vệ sinh không phù hợp"
+  ],
+  "2": [
+    "Do ký sinh trùng",
+    "Do nấm",
+    "Do chế độ dinh dưỡng kém",
+    "Do dị ứng thức ăn, môi trường"
+  ],
+  "3": [
+    "Tuổi tác và quá trình lão hóa",
+    "Các bệnh lý tiền suy thận",
+    "Chế độ ăn uống không phù hợp chứa quá nhiều protein, chất béo, muối",
+    "Dùng thuốc có tác động tiêu cực đến thận",
+    "Di truyền",
+    "Chấn thương có thể gây ra suy thận"
+  ],
+  "4": ["Gây ra bởi virus Corona mèo (FCoV)"],
+  "5": [
+    "Thiếu sữa non của mèo mẹ",
+    "Di truyền từ mèo mẹ",
+    "Trầm cảm",
+    "Mất nước"
+  ],
+  "6": [
+    "Do virus dại (Rabies virus) gây ra, thường lây truyền qua vết cắn hoặc vết trầy xước từ động vật bị nhiễm bệnh",
+    "Virus dại lây truyền qua nước bọt của động vật nhiễm bệnh, chủ yếu qua vết cắn. Các động vật hoang dã như dơi, cáo, chồn hôi và chó hoang là nguồn lây nhiễm chính"
+  ],
+  "7": [
+    "Feline herpesvirus (FHV) được lây truyền giữa các cá thể mèo qua:",
+    "Tiếp xúc trực tiếp với nước bọt, dịch tiết từ mắt và mũi",
+    "Hít phải dịch hắt hơi",
+    "Sử dụng chung tô thức ăn và khay vệ sinh",
+    "Môi trường sống bị ô nhiễm (bao gồm các vật dụng chăm sóc lông và tấm trải ổ nệm)"
+  ],
+  "8": "Sự gia tăng sản xuất hormone tuyến giáp từ các tuyến giáp nằm ở cổ.",
+  "9": [
+    "Viêm phế quản",
+    "Dị ứng với các chất tẩy rửa và tạo mùi",
+    "Béo phì",
+    "Viêm phổi",
+    "Do ký sinh trùng",
+    "Di truyền",
+    "Căng thẳng cường độ cao"
+  ],
+  "10": ["Do thiếu insulin nội tiết tố hoặc đáp ứng không đầy đủ với insulin"],
+  "11": ["Virus Felien Pavovirus"],
+  "12": ["Virus Felien Pavovirus"],
+  "13": ["Virus Felien Pavovirus"],
+  "14": ["Virus Felien Pavovirus"]
+}

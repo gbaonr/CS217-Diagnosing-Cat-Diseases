@@ -1,105 +1,65 @@
-[
-    {
-        "0": [
-            "Thuốc mỡ",
-            "Thuốc kháng nấm đường uống : Nizoral, Ketoconazol, Flucinazol",
-            "Kháng sinh dùng để đề phòng bội nhiễm"
-        ]
-    },
-    {
-        "1": [
-            "Thuốc diệt ký sinh trùng"
-        ]
-    },
-    {
-        "2": [
-            "Thuốc chống dị ứng",
-            "Thuốc chống ký sinh trùng",
-            "Thuốc chống nấm",
-            "Thuốc chống vi khuẩn"
-        ]
-    },
-    {
-        "3": [
-            "ACE inhibitor",
-            "Phosphate binders",
-            "Erythropoietin",
-            "Vitamin D3 analogs"
-        ]
-    },
-    {
-        "4": [
-            "Corticosteroid (thuốc chống viêm)",
-            "Interferon",
-            "Life Gold của Pet Wellbeing",
-            "GS-441524",
-            "Remdesivir"
-        ]
-    },
-    {
-        "5": [
-            "Amoxicillin-clavulanate",
-            "Enrofloxacin",
-            "Cefovecin",
-            "Doxycycline",
-            "Probiotics",
-            "Dung dịch glucose"
-        ]
-    },
-    {
-        "6": []
-    },
-    {
-        "7": [
-            "Famciclovir (chống virus toàn thân)",
-            "Idoxuridine, trifluridine, cidofovir (chống virus trực tiếp qua mắt)",
-            "Mirtazapine, Cyproheptadine (kích thích ăn uống)"
-        ]
-    },
-    {
-        "8": [
-            "Không có biện pháp phòng ngừa nào được biết đến đối với bệnh cường giáp",
-            "Chẩn đoán sớm sẽ làm giảm các vấn đề thứ phát và cải thiện tiên lượng",
-            "Kiểm tra sức khỏe định kỳ 6 tháng 1 lần"
-        ]
-    },
-    {
-        "9": [
-            "Tiêm vaccine phòng tránh hen suyễn",
-            "Kiểm tra sức khoẻ cho mèo thường xuyên để kiểm tra nội ký sinh",
-            "Giúp mèo có môi trường sống thoải mái, không căng thẳng hay sợ hãi",
-            "Thường xuyên cho mèo đi dạo, chơi đồ chơi",
-            "Tạo không gian sống có độ ẩm ổn định",
-            "Không nên lạm dụng chất tẩy rửa, nước thơm xịt phòng, chất khử mùi, keo xịt tóc… để làm thanh sạch không khí trong nhà",
-            "Không để mèo quá gầy hoặc béo phì",
-            "Hạn chế để mèo tiếp xúc với khói thuốc lá"
-        ]
-    },
-    {
-        "10": [
-            "Một chế độ ăn uống hợp lý",
-            "Tập thể dục thường xuyên",
-            "Tránh thừa cân, béo phì"
-        ]
-    },
-    {
-        "11": [
-            "Các biện pháp cấp cứu của chuyên gia"
-        ]
-    },
-    {
-        "12": [
-            "Các biện pháp cấp cứu của chuyên gia"
-        ]
-    },
-    {
-        "13": [
-            "Các biện pháp cấp cứu của chuyên gia"
-        ]
-    },
-    {
-        "14": [
-            "Các biện pháp cấp cứu của chuyên gia"
-        ]
-    }
-]
+{
+  "0": [
+    "Thuốc mỡ",
+    "Thuốc kháng nấm đường uống : Nizoral, Ketoconazol, Flucinazol",
+    "Kháng sinh dùng để đề phòng bội nhiễm"
+  ],
+  "1": ["Thuốc diệt ký sinh trùng"],
+  "2": [
+    "Thuốc chống dị ứng",
+    "Thuốc chống ký sinh trùng",
+    "Thuốc chống nấm",
+    "Thuốc chống vi khuẩn"
+  ],
+  "3": [
+    "ACE inhibitor",
+    "Phosphate binders",
+    "Erythropoietin",
+    "Vitamin D3 analogs"
+  ],
+  "4": [
+    "Corticosteroid (thuốc chống viêm)",
+    "Interferon",
+    "Life Gold của Pet Wellbeing",
+    "GS-441524",
+    "Remdesivir"
+  ],
+  "5": [
+    "Amoxicillin-clavulanate",
+    "Enrofloxacin",
+    "Cefovecin",
+    "Doxycycline",
+    "Probiotics",
+    "Dung dịch glucose"
+  ],
+  "6": [],
+  "7": [
+    "Famciclovir (chống virus toàn thân)",
+    "Idoxuridine, trifluridine, cidofovir (chống virus trực tiếp qua mắt)",
+    "Mirtazapine, Cyproheptadine (kích thích ăn uống)"
+  ],
+  "8": [
+    "Không có biện pháp phòng ngừa nào được biết đến đối với bệnh cường giáp",
+    "Chẩn đoán sớm sẽ làm giảm các vấn đề thứ phát và cải thiện tiên lượng",
+    "Kiểm tra sức khỏe định kỳ 6 tháng 1 lần"
+  ],
+  "9": [
+    "Tiêm vaccine phòng tránh hen suyễn",
+    "Kiểm tra sức khoẻ cho mèo thường xuyên để kiểm tra nội ký sinh",
+    "Giúp mèo có môi trường sống thoải mái, không căng thẳng hay sợ hãi",
+    "Thường xuyên cho mèo đi dạo, chơi đồ chơi",
+    "Tạo không gian sống có độ ẩm ổn định",
+    "Không nên lạm dụng chất tẩy rửa, nước thơm xịt phòng, chất khử mùi, keo xịt tóc… để làm thanh sạch không khí trong nhà",
+    "Không để mèo quá gầy hoặc béo phì",
+    "Hạn chế để mèo tiếp xúc với khói thuốc lá"
+  ],
+  "10": [
+    "Một chế độ ăn uống hợp lý",
+    "Tập thể dục thường xuyên",
+    "Tránh thừa cân, béo phì"
+  ],
+  "11": ["Các biện pháp cấp cứu của chuyên gia"],
+  "12": ["Các biện pháp cấp cứu của chuyên gia"],
+  "13": ["Các biện pháp cấp cứu của chuyên gia"],
+  "14": ["Các biện pháp cấp cứu của chuyên gia"]
+}

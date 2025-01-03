@@ -1,114 +1,84 @@
-[
-    {
-        "0": [
-            "Dùng thuốc uống hoặc thuốc mỡ kháng nấm",
-            "Nếu có u nang, cần phẫu thuật cắt bỏ",
-            "Không tắm mèo trong quá trình điều trị",
-            "Vệ sinh và làm sạch vết thương trước khi bôi thuốc",
-            "Hạn chế mèo liếm thuốc ngoài da, sử dụng vòng cổ chống liếm (loa đeo đầu)"
-        ]
-    },
-    {
-        "1": [
-            "Thường xuyên tắm và sấy khô lông cho mèo",
-            "Chọn loại sữa tắm phù hợp",
-            "Thay đổi chế độ ăn uống, tăng khẩu phần dinh dưỡng",
-            "Chải lông hàng ngày",
-            "Cho mèo uống nhiều nước"
-        ]
-    },
-    {
-        "2": [
-            "Chuyển sang loại thức ăn chứa các chất dinh dưỡng cân đối, axit béo, omega-3, omega-6",
-            "Chăm sóc da",
-            "Dùng thuốc chống dị ứng",
-            "Dùng thuốc chống ký sinh trùng",
-            "Dùng thuốc chống nấm",
-            "Dùng thuốc chống vi khuẩn",
-            "Sử dụng antihistamines, antibiotics, immunomodulators"
-        ]
-    },
-    {
-        "3": [
-            "Điều chỉnh chế độ ăn uống",
-            "Điều trị các triệu chứng như tiêu chảy, nôn mửa, và bệnh nhiễm trùng nếu có",
-            "Điều trị thay thế: cấy ghép thận hoặc sử dụng máy thay thế thận đối với các trường hợp suy thận nặng"
-        ]
-    },
-    {
-        "4": [
-            "Cung cấp chế độ ăn dinh dưỡng",
-            "Đảm bảo điều kiện sống thoải mái",
-            "Theo dõi sát sao và chăm sóc y tế định kỳ",
-            "Sử dụng thuốc chống viêm như corticosteroid",
-            "Hỗ trợ miễn dịch bằng interferon hoặc Life Gold của Pet Wellbeing",
-            "Điều trị chủ đạo bằng GS-441524 hoặc remdesivir trong một số trường hợp đặc biệt"
-        ]
-    },
-    {
-        "5": [
-            "Cần chăm sóc điều dưỡng tốt, tiêm các chất dịch cân bằng để phục hồi dịch cơ thể",
-            "Thuốc kháng sinh: Amoxicillin-clavulanate, Enrofloxacin (cẩn thận với mèo, liều cao có thể gây tác dụng phụ), Cefovecin (tiêm, hiệu quả kéo dài), Doxycycline",
-            "Thuốc bổ trợ: Probiotics, Bù nước và điện giải, Dung dịch glucose"
-        ]
-    },
-    {
-        "6": [
-            "Cách ly mèo, tránh tiếp xúc với người và con vật khác",
-            "Liên hệ ngay với bác sĩ thú y hoặc cơ quan chức năng để được hướng dẫn cách xử lý an toàn",
-            "Tiêm phòng vắc xin đầy đủ ngay khi mèo được 2 tháng tuổi",
-            "Giữ mèo trong nhà, không thả rông",
-            "Vệ sinh chỗ ở và nơi đi vệ sinh của mèo để virus không có chỗ trú ẩn"
-        ]
-    },
-    {
-        "7": [
-            "Bù nước: Truyền dịch như Ringer Lactate hoặc dung dịch glucose. Khuyến khích uống nước bằng cách dùng nước hầm xương hoặc thức ăn ướt",
-            "Dinh dưỡng: Cung cấp thức ăn mềm, dễ tiêu và có mùi hấp dẫn (ví dụ: pate mèo). Nếu mèo bỏ ăn, có thể dùng thuốc kích thích ăn uống như Mirtazapine hoặc Cyproheptadine",
-            "Tăng cường sức đề kháng: Bổ sung Vitamin B-complex, Lysine (hỗ trợ kháng virus Herpes)",
-            "Liệu pháp chống virus toàn thân: famciclovir",
-            "Liệu pháp chống virus trực tiếp qua mắt: idoxuridine, trifluridine và cidofovir"
-        ]
-    },
-    {
-        "8": [
-            "Dùng thuốc",
-            "Phẫu thuật cắt bỏ các mô bị ảnh hưởng (cắt bỏ tuyến giáp)",
-            "Iodine phóng xạ",
-            "Ăn kiêng (cần bác sĩ chỉ định không làm tại nhà): Khống chế lượng i-ốt trong chế độ ăn của mèo. (thức ăn gợi ý: y/d Cat Food)"
-        ]
-    },
-    {
-        "9": [
-            "Khi mèo nhà bạn mắc hen suyễn, chắc chắn phải đưa chúng đi bác sĩ thú y",
-            "Những lúc mèo lên cơn hen nặng cũng cần lập tức đưa đi cấp cứu"
-        ]
-    },
-    {
-        "10": [
-            "Điều chỉnh chế độ ăn uống hợp lý cho thú cưng: Chế độ ăn nhiều chất xơ sẽ giúp cho con vật dễ tiêu hoá hơn",
-            "Điều trị bệnh tiểu đường ở chó mèo bằng insulin: 2 lần/ngày cách nhau 12 giờ (phương pháp chính)",
-            "Tăng luyện tập cơ bắp mỗi ngày cho thú sẽ cải thiện phản ứng cho thú trong việc điều trị bằng insulin. Thời gian thường là 2 lần/ngày, mỗi lần 30 phút, tùy thuộc vào giống mèo mà bạn nuôi"
-        ]
-    },
-    {
-        "11": [
-            "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
-        ]
-    },
-    {
-        "12": [
-            "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
-        ]
-    },
-    {
-        "13": [
-            "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
-        ]
-    },
-    {
-        "14": [
-            "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
-        ]
-    }
-]
+{
+  "0": [
+    "Dùng thuốc uống hoặc thuốc mỡ kháng nấm",
+    "Nếu có u nang, cần phẫu thuật cắt bỏ",
+    "Không tắm mèo trong quá trình điều trị",
+    "Vệ sinh và làm sạch vết thương trước khi bôi thuốc",
+    "Hạn chế mèo liếm thuốc ngoài da, sử dụng vòng cổ chống liếm (loa đeo đầu)"
+  ],
+  "1": [
+    "Thường xuyên tắm và sấy khô lông cho mèo",
+    "Chọn loại sữa tắm phù hợp",
+    "Thay đổi chế độ ăn uống, tăng khẩu phần dinh dưỡng",
+    "Chải lông hàng ngày",
+    "Cho mèo uống nhiều nước"
+  ],
+  "2": [
+    "Chuyển sang loại thức ăn chứa các chất dinh dưỡng cân đối, axit béo, omega-3, omega-6",
+    "Chăm sóc da",
+    "Dùng thuốc chống dị ứng",
+    "Dùng thuốc chống ký sinh trùng",
+    "Dùng thuốc chống nấm",
+    "Dùng thuốc chống vi khuẩn",
+    "Sử dụng antihistamines, antibiotics, immunomodulators"
+  ],
+  "3": [
+    "Điều chỉnh chế độ ăn uống",
+    "Điều trị các triệu chứng như tiêu chảy, nôn mửa, và bệnh nhiễm trùng nếu có",
+    "Điều trị thay thế: cấy ghép thận hoặc sử dụng máy thay thế thận đối với các trường hợp suy thận nặng"
+  ],
+  "4": [
+    "Cung cấp chế độ ăn dinh dưỡng",
+    "Đảm bảo điều kiện sống thoải mái",
+    "Theo dõi sát sao và chăm sóc y tế định kỳ",
+    "Sử dụng thuốc chống viêm như corticosteroid",
+    "Hỗ trợ miễn dịch bằng interferon hoặc Life Gold của Pet Wellbeing",
+    "Điều trị chủ đạo bằng GS-441524 hoặc remdesivir trong một số trường hợp đặc biệt"
+  ],
+  "5": [
+    "Cần chăm sóc điều dưỡng tốt, tiêm các chất dịch cân bằng để phục hồi dịch cơ thể",
+    "Thuốc kháng sinh: Amoxicillin-clavulanate, Enrofloxacin (cẩn thận với mèo, liều cao có thể gây tác dụng phụ), Cefovecin (tiêm, hiệu quả kéo dài), Doxycycline",
+    "Thuốc bổ trợ: Probiotics, Bù nước và điện giải, Dung dịch glucose"
+  ],
+  "6": [
+    "Cách ly mèo, tránh tiếp xúc với người và con vật khác",
+    "Liên hệ ngay với bác sĩ thú y hoặc cơ quan chức năng để được hướng dẫn cách xử lý an toàn",
+    "Tiêm phòng vắc xin đầy đủ ngay khi mèo được 2 tháng tuổi",
+    "Giữ mèo trong nhà, không thả rông",
+    "Vệ sinh chỗ ở và nơi đi vệ sinh của mèo để virus không có chỗ trú ẩn"
+  ],
+  "7": [
+    "Bù nước: Truyền dịch như Ringer Lactate hoặc dung dịch glucose. Khuyến khích uống nước bằng cách dùng nước hầm xương hoặc thức ăn ướt",
+    "Dinh dưỡng: Cung cấp thức ăn mềm, dễ tiêu và có mùi hấp dẫn (ví dụ: pate mèo). Nếu mèo bỏ ăn, có thể dùng thuốc kích thích ăn uống như Mirtazapine hoặc Cyproheptadine",
+    "Tăng cường sức đề kháng: Bổ sung Vitamin B-complex, Lysine (hỗ trợ kháng virus Herpes)",
+    "Liệu pháp chống virus toàn thân: famciclovir",
+    "Liệu pháp chống virus trực tiếp qua mắt: idoxuridine, trifluridine và cidofovir"
+  ],
+  "8": [
+    "Dùng thuốc",
+    "Phẫu thuật cắt bỏ các mô bị ảnh hưởng (cắt bỏ tuyến giáp)",
+    "Iodine phóng xạ",
+    "Ăn kiêng (cần bác sĩ chỉ định không làm tại nhà): Khống chế lượng i-ốt trong chế độ ăn của mèo. (thức ăn gợi ý: y/d Cat Food)"
+  ],
+  "9": [
+    "Khi mèo nhà bạn mắc hen suyễn, chắc chắn phải đưa chúng đi bác sĩ thú y",
+    "Những lúc mèo lên cơn hen nặng cũng cần lập tức đưa đi cấp cứu"
+  ],
+  "10": [
+    "Điều chỉnh chế độ ăn uống hợp lý cho thú cưng: Chế độ ăn nhiều chất xơ sẽ giúp cho con vật dễ tiêu hoá hơn",
+    "Điều trị bệnh tiểu đường ở chó mèo bằng insulin: 2 lần/ngày cách nhau 12 giờ (phương pháp chính)",
+    "Tăng luyện tập cơ bắp mỗi ngày cho thú sẽ cải thiện phản ứng cho thú trong việc điều trị bằng insulin. Thời gian thường là 2 lần/ngày, mỗi lần 30 phút, tùy thuộc vào giống mèo mà bạn nuôi"
+  ],
+  "11": [
+    "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
+  ],
+  "12": [
+    "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
+  ],
+  "13": [
+    "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
+  ],
+  "14": [
+    "Liên hệ ngay với các trung tâm hoặc phòng khám thú y gần nhất để được cấp cứu, tránh nguy cơ tử vong"
+  ]
+}
