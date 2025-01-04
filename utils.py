@@ -110,6 +110,9 @@ def norm_chosen(chosens, words, norm_table, show_=False):
                 norm_chosen = res[1]
                 temp = res[2]
 
+        if norm_chosen == "":
+            norm_chosens.append(option + "(not normalized)")
+
         if norm_chosen != "":
             norm_chosens.append(norm_chosen)
 
@@ -263,4 +266,26 @@ discription = [
 
 # for r in res:
 #     print(r["name"])
-to_doc()
+# to_doc()
+
+def ham_bao_keu_viet():
+    words, norm_table = create_norm_table()
+
+    with open(os.path.join(PATH, "symptoms.json"), "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    normalized_sym = []
+    for key in data:
+        normalized = norm_chosen(data[key], words, norm_table)
+        normalized_sym.extend(normalized)
+    
+    # print(normalized_sym)
+    
+    not_normalized = []
+    for norm in normalized_sym:
+        if "(not normalized)" in norm:
+            not_normalized.append(norm.split("(not normalized)")[0])
+    
+    print(not_normalized)
+    
+ham_bao_keu_viet()
