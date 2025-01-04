@@ -10,7 +10,8 @@
     "lông mỏng",
     "rụng thành mảng",
     "rụng nhiều",
-    "rụng không đều"
+    "rụng không đều",
+    "lông đuôi thưa"
   ],
   "ngứa": [
     "gãi",
@@ -64,7 +65,8 @@
     "hôi thối",
     "hôi nồng",
     "mùi tanh",
-    "mùi ẩm mốc"
+    "mùi ẩm mốc",
+    "hơi thở có mùi khác thường"
   ],
   "giảm cân": [
     "sụt cân",
@@ -118,7 +120,10 @@
     "ít di chuyển",
     "yếu ớt",
     "chậm vận động",
-    "lười đi lại"
+    "lười đi lại",
+    "lờ phờ",
+    "suy yếu",
+    "yếu"
   ],
   "dữ": [
     "cộc cằn",
@@ -164,7 +169,8 @@
     "mắt đỏ",
     "thị lực giảm",
     "không nhìn rõ",
-    "mờ thị lực"
+    "mờ thị lực",
+    "niêm mạc chuyển thành màu xanh"
   ],
   "ăn uống thất thường": [
     "ăn nhiều",
@@ -174,7 +180,10 @@
     "thay đổi hành vi ăn uống",
     "ăn không đều",
     "không uống nước",
-    "uống ít nước"
+    "uống ít nước",
+    "uống nước nhiều hơn bình thường",
+    "mất sự ham muốn ăn",
+    "thèm ăn"
   ],
   "da đỏ": [
     "lở loét",
@@ -222,7 +231,8 @@
     "sợ ánh sáng",
     "bồn chồn",
     "lú lẫn",
-    "run rẩy"
+    "run rẩy",
+    "thờ ơ"
   ],
   "nôn mửa": ["ói", "nôn", "trớ", "mửa", "buồn nôn", "nôn liên tục"],
   "tiêu chảy": [
@@ -250,19 +260,30 @@
     "tim đập mạnh",
     "tim đập nhanh"
   ],
-  "môi và nướu đổi màu": ["nướu sưng", "môi tím", "nướu tím", "nướu đổi màu"],
+  "môi và nướu đổi màu": [
+    "nướu sưng", 
+    "môi tím", 
+    "nướu tím", 
+    "nướu đổi màu", 
+    "môi và nướu của mèo chuyển sang màu xanh"
+  ],
   "tiểu nhiều": ["đi tiểu nhiều", "tiểu thường xuyên", "đi vệ sinh nhiều"],
   "không đi kèm triệu chứng nào khác": [
     "triệu chứng đơn lẻ",
     "không có dấu hiệu khác"
   ],
-  "mèo trưởng thành": ["mèo lớn", "mèo trên 1 tuổi", "mèo già"],
+  "mèo trưởng thành": ["mèo lớn", "mèo trên 1 tuổi", "mèo già", "mèo trường thành"],
   "mèo con": ["mèo nhỏ", "mèo dưới 1 tuổi", "mèo sơ sinh"],
   "mất khả năng điều hòa vận động": [
     "mất thăng bằng",
     "rối loạn vận động",
     "đi loạng choạng",
     "không vững",
-    "run lẩy bẩy"
-  ]
+    "run lẩy bẩy",
+    "di chuyển với các bước đi nặng nề mất tự nhiên"
+  ],
+  "vấn đề về thính giác":[
+    "mất thính giác"
+  ],
+  "phân lẫn máu":["phân đôi khi lẫn máu"]
 }
