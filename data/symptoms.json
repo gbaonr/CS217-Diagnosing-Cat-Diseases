@@ -3,7 +3,10 @@
     "Rụng lông thành mảng, có màu hồng",
     "Ngứa ngáy, gãi đến chảy máu",
     "Thường xuyên cọ sát vào đồ vật",
-    "Vạch lông thấy các đốm đỏ, bong vảy, chảy mủ và có mùi hôi",
+    "Vạch lông thấy các đốm đỏ",
+    "Bong vảy",
+    "Chảy mủ",
+    "Có mùi hôi",
     "Mèo giảm cân",
     "Sốt",
     "Biếng ăn",
@@ -13,7 +16,8 @@
   "1": ["Lông rụng nhiều", "Mèo trở nên khó tính"],
   "2": [
     "Nổi mụn trứng cá, thường xuất hiện dưới da tạo thành các đốm đỏ",
-    "Nhiễm khuẩn, da đỏ, sưng và có thể có mủ",
+    "Nhiễm khuẩn, da đỏ, sưng",
+    "Có thể có mủ",
     "Rụng lông từng mảng",
     "Có bọ chét, ve tai, rận",
     "Lông đuôi thưa",
@@ -23,20 +27,27 @@
   "3": [
     "Tiểu nhiều hoặc tiểu ít",
     "Thường xuyên khát nước",
-    "Giảm cân và suy yếu",
-    "Nôn mửa, tiêu chảy hoặc táo bón",
+    "Giảm cân",
+    "Suy yếu",
+    "Nôn mửa", 
+    "Tiêu chảy",
+    "Táo bón",
     "Lông xù, xơ rối, sỉ màu",
     "Mệt mỏi và buồn ngủ",
     "Hơi thở có mùi khác thường",
     "Thay đổi hành vi ăn uống"
   ],
   "4": [
-    "Giảm cân, mất sự ham muốn ăn và mệt mỏi",
+    "Giảm cân", 
+    "Mất sự ham muốn ăn",
+    "Mệt mỏi",
     "Khó thở và các vấn đề về hô hấp",
     "Các khối u hoặc dấu hiệu viêm nhiễm trên da, lớp sần sùi trên da",
-    "Vấn đề tiêu hóa như tiêu chảy hoặc táo bón",
-    "Mất thính giác hoặc vấn đề về thị lực",
-    "Triệu chứng thần kinh như co giật, rối loạn cử động hoặc thay đổi hành vi"
+    "Tiêu chảy",
+    "Táo bón",
+    "Mất thính giác",
+    "Vấn đề về thị lực",
+    "Co giật, rối loạn hành vi"
   ],
   "5": [
     "Chán ăn",
@@ -49,24 +60,27 @@
     "Niêm mạc chuyển thành màu xanh"
   ],
   "6": [
-    "Thu mình, lo lắng và nhút nhát",
-    "Dễ kích động, mất phương hướng",
-    "Dễ cáu kỉnh, hung tợn, thậm chí cắn cả chủ nuôi",
-    "Cắn xé đồ đạc một cách điên loạn",
-    "Sợ ánh sáng, bị co giật, suy hô hấp",
+    "Thu mình, lo lắng và nhút nhát, sợ ánh sáng, bị co giật, dễ kích động, mất phương hướng",
+    "Dễ cáu kỉnh, hung tợn, thậm chí cắn cả chủ nuôi, cắn xé đồ đạc",
+    "Suy hô hấp",
     "Di chuyển chậm chạp, buồn rầu"
   ],
   "7": [
-    "Hắt hơi, chảy nước mũi",
+    "Hắt hơi", 
+    "Chảy nước mũi",
     "Mắt đỏ, chảy nước mắt",
-    "Sốt, mệt mỏi, kém ăn",
+    "Sốt", 
+    "Mệt mỏi", 
+    "Kém ăn",
     "Có thể kèm loét miệng hoặc lở loét quanh mũi"
   ],
   "8": [
     "Giảm cân",
-    "Thường cảm giác ngon miệng hoặc tăng cảm giác thèm ăn (polyphagia)",
-    "Tăng khát (polydipsia)",
-    "Tăng hoạt động, bồn chồn hoặc cáu kỉnh",
+    "Thèm ăn",
+    "Tăng khát nước(polydipsia)",
+    "Tăng hoạt động", 
+    "Bồn chồn",
+    "Cáu kỉnh",
     "Tăng nhịp tim (tachycardia)",
     "Bộ lông xơ xác, không được chải chuốt",
     "Tiêu chảy nhẹ đến trung bình",
@@ -78,15 +92,15 @@
   "9": [
     "Thở nhanh, thở gấp hoặc thở kèm theo tiếng kêu khò khè",
     "Hơi thở yếu",
-    "Môi và nướu của mèo chuyển sang màu xanh, chứ không đỏ hồng như bình thường",
-    "Cơ thể yếu ớt, kém hoạt bát và mệt mỏi"
+    "Môi và nướu của mèo chuyển sang màu xanh",
+    "Cơ thể yếu ớt và mệt mỏi"
   ],
   "10": [
     "Uống nước nhiều hơn bình thường",
     "Đói và thèm ăn",
     "Đi tiểu nhiều",
     "Mệt mỏi và thiếu năng lượng: lười nhác vận động và ngủ nhiều",
-    "Chi sau hoạt động yếu kém: di chuyển với các bước đi nặng nề mất tự nhiên"
+    "Di chuyển với các bước đi nặng nề mất tự nhiên"
   ],
   "11": [
     "Xảy ra đột ngột",
