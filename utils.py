@@ -268,24 +268,20 @@ discription = [
 #     print(r["name"])
 # to_doc()
 
+
 def ham_bao_keu_viet():
     words, norm_table = create_norm_table()
 
     with open(os.path.join(PATH, "symptoms.json"), "r", encoding="utf-8") as file:
         data = json.load(file)
 
-    normalized_sym = []
+    chosens = []
     for key in data:
-        normalized = norm_chosen(data[key], words, norm_table)
-        normalized_sym.extend(normalized)
-    
-    # print(normalized_sym)
-    
-    not_normalized = []
-    for norm in normalized_sym:
-        if "(not normalized)" in norm:
-            not_normalized.append(norm.split("(not normalized)")[0])
-    
-    print(not_normalized)
-    
+        chosens.extend(data[key])
+
+    norm_chosens = norm_chosen(chosens, words, norm_table, show_=True)
+
+    print(f"\n\nNorm_chosens: {len(norm_chosens)}, origin: {len(chosens)} \n\n")
+
+
 ham_bao_keu_viet()

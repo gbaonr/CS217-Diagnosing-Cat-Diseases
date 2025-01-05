@@ -1,2 +1,4 @@
 /__pycache__/*
 benh_meo.json
+/.devcontainer/*
+test.py

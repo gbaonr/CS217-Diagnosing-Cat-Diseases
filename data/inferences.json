@@ -66,7 +66,12 @@
     "hôi nồng",
     "mùi tanh",
     "mùi ẩm mốc",
-    "hơi thở có mùi khác thường"
+    "hơi thở có mùi khác thường",
+    "mùi hôi nồng",
+    "mùi hôi thối",
+    "mùi hôi nồng nặc",
+    "mùi lạ",
+    "mùi kì lạ"
   ],
   "giảm cân": [
     "sụt cân",
@@ -134,7 +139,9 @@
     "cáu kỉnh",
     "gắt gỏng",
     "hung bạo",
-    "hung ác"
+    "hung ác",
+    "gầm gừ",
+    "khè"
   ],
   "đột ngột": [
     "bất ngờ",
@@ -170,7 +177,8 @@
     "thị lực giảm",
     "không nhìn rõ",
     "mờ thị lực",
-    "niêm mạc chuyển thành màu xanh"
+    "niêm mạc chuyển thành màu xanh",
+    "niêm mạc chuyển màu"
   ],
   "ăn uống thất thường": [
     "ăn nhiều",
@@ -182,6 +190,8 @@
     "không uống nước",
     "uống ít nước",
     "uống nước nhiều hơn bình thường",
+    "uống nhiều nước",
+    "khát nước nhiều",
     "mất sự ham muốn ăn",
     "thèm ăn"
   ],
@@ -232,7 +242,8 @@
     "bồn chồn",
     "lú lẫn",
     "run rẩy",
-    "thờ ơ"
+    "thờ ơ",
+    "đơ"
   ],
   "nôn mửa": ["ói", "nôn", "trớ", "mửa", "buồn nôn", "nôn liên tục"],
   "tiêu chảy": [
@@ -261,10 +272,10 @@
     "tim đập nhanh"
   ],
   "môi và nướu đổi màu": [
-    "nướu sưng", 
-    "môi tím", 
-    "nướu tím", 
-    "nướu đổi màu", 
+    "nướu sưng",
+    "môi tím",
+    "nướu tím",
+    "nướu đổi màu",
     "môi và nướu của mèo chuyển sang màu xanh"
   ],
   "tiểu nhiều": ["đi tiểu nhiều", "tiểu thường xuyên", "đi vệ sinh nhiều"],
@@ -272,7 +283,12 @@
     "triệu chứng đơn lẻ",
     "không có dấu hiệu khác"
   ],
-  "mèo trưởng thành": ["mèo lớn", "mèo trên 1 tuổi", "mèo già", "mèo trường thành"],
+  "mèo trưởng thành": [
+    "mèo lớn",
+    "mèo trên 1 tuổi",
+    "mèo già",
+    "mèo trường thành"
+  ],
   "mèo con": ["mèo nhỏ", "mèo dưới 1 tuổi", "mèo sơ sinh"],
   "mất khả năng điều hòa vận động": [
     "mất thăng bằng",
@@ -282,8 +298,6 @@
     "run lẩy bẩy",
     "di chuyển với các bước đi nặng nề mất tự nhiên"
   ],
-  "vấn đề về thính giác":[
-    "mất thính giác"
-  ],
-  "phân lẫn máu":["phân đôi khi lẫn máu"]
+  "vấn đề về thính giác": ["mất thính giác"],
+  "phân lẫn máu": ["phân đôi khi lẫn máu"]
 }
