@@ -103,7 +103,27 @@
     "ăn kém",
     "ăn không ngon",
     "ăn không đều",
-    "không muốn ăn"
+    "ăn ít",
+    "không muốn ăn",
+    "mất sự ham muốn ăn"
+  ],
+  "thèm ăn": ["thèm ăn", "thèm ăn ngọt", "thèm", "ăn nhiều", "ăn nhiều hơn"],
+  "ăn uống thất thường": [
+    "thay đổi hành vi ăn uống",
+    "ăn không đều",
+    "không uống nước",
+    "uống ít nước"
+  ],
+  "khát nước": [
+    "khát nước",
+    "khát nước nhiều",
+    "khát nước hơn bình thường",
+    "uống nước nhiều",
+    "uống nhiều nước",
+    "uống nước",
+    "uống nước nhiều hơn bình thường",
+    "uống nhiều nước",
+    "khát nước nhiều"
   ],
   "khó thở": [
     "khò khè",
@@ -169,45 +189,33 @@
     "lạnh buốt",
     "nhiệt độ giảm"
   ],
-  "vấn đề về thị lực": [
+  "vấn đề về mắt": [
     "mờ mắt",
     "nhìn không rõ",
     "niêm mạc nhợt nhạt",
-    "mắt đỏ",
     "thị lực giảm",
     "không nhìn rõ",
     "mờ thị lực",
     "niêm mạc chuyển thành màu xanh",
-    "niêm mạc chuyển màu"
-  ],
-  "ăn uống thất thường": [
-    "ăn nhiều",
-    "ăn ít",
-    "khát nước",
-    "uống nhiều nước",
-    "thay đổi hành vi ăn uống",
-    "ăn không đều",
-    "không uống nước",
-    "uống ít nước",
-    "uống nước nhiều hơn bình thường",
-    "uống nhiều nước",
-    "khát nước nhiều",
-    "mất sự ham muốn ăn",
-    "thèm ăn"
+    "niêm mạc chuyển màu",
+    "mắt đỏ",
+    "nước mắt chảy",
+    "chảy nước mắt",
+    "mắt ướt"
   ],
   "da đỏ": [
     "lở loét",
     "sần sùi",
     "vết đỏ",
-    "da sưng",
     "mẩn đỏ",
-    "da viêm",
-    "da kích ứng"
+    "da kích ứng",
+    "tấy đỏ",
+    "mẩn đỏ"
   ],
   "sưng": [
-    "tấy đỏ",
     "nổi hạch",
     "viêm",
+    "da sưng",
     "nổi cục",
     "u",
     "sưng đau",
@@ -217,13 +225,13 @@
     "trầy xước"
   ],
   "dị ứng": [
-    "da đỏ",
-    "mẩn đỏ",
+    "da sưng tấy",
     "ngứa",
-    "sưng",
     "phát ban",
     "kích ứng",
-    "dị ứng ngoài da"
+    "dị ứng ngoài da",
+    "rôm",
+    "sẩy"
   ],
   "ký sinh": [
     "bọ chét",
@@ -252,7 +260,9 @@
     "mất nước",
     "rối loạn tiêu hóa",
     "phân lỏng",
-    "đi tiêu lỏng"
+    "đi tiêu lỏng",
+    "phân nước",
+    "đi ngoài ra ngước"
   ],
   "táo bón": [
     "khó đi ngoài",
@@ -263,7 +273,6 @@
     "không đi tiêu"
   ],
   "hắt hơi": ["hắt xì", "ho", "hắt hơi liên tục"],
-  "chảy nước mắt": ["mắt đỏ", "nước mắt chảy", "mắt ướt"],
   "chảy nước mũi": ["dịch mũi", "sổ mũi", "mũi chảy nước"],
   "tăng nhịp tim": [
     "nhịp tim nhanh",
@@ -271,14 +280,25 @@
     "tim đập mạnh",
     "tim đập nhanh"
   ],
-  "môi và nướu đổi màu": [
+  "môi và nướu": [
     "nướu sưng",
     "môi tím",
     "nướu tím",
     "nướu đổi màu",
-    "môi và nướu của mèo chuyển sang màu xanh"
+    "môi chuyển màu",
+    "môi đổi màu",
+    "môi chuyển màu",
+    "môi và nướu của mèo chuyển sang màu xanh",
+    "môi và nướu chuyển màu",
+    "môi và nướu đổi màu"
   ],
-  "tiểu nhiều": ["đi tiểu nhiều", "tiểu thường xuyên", "đi vệ sinh nhiều"],
+  "tiểu nhiều": [
+    "đi tiểu nhiều",
+    "tiểu thường xuyên",
+    "đi vệ sinh nhiều",
+    "tiểu",
+    "đái nhiều"
+  ],
   "không đi kèm triệu chứng nào khác": [
     "triệu chứng đơn lẻ",
     "không có dấu hiệu khác"
@@ -298,6 +318,6 @@
     "run lẩy bẩy",
     "di chuyển với các bước đi nặng nề mất tự nhiên"
   ],
-  "vấn đề về thính giác": ["mất thính giác"],
+  "vấn đề về thính giác": ["mất thính giác", "lãng tai"],
   "phân lẫn máu": ["phân đôi khi lẫn máu"]
 }

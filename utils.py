@@ -82,7 +82,9 @@ def absolute_match(query, word, norm_table):
     # return the longest synonym
     res = (None, "", None)
     for synonym in array:
-        if len(synonym) == 1:  # vd "u" -> "u nhọt"
+        synonym_parts = synonym.split(" ")
+        if len(synonym_parts) == 1:  # vd "u" -> "u nhọt"
+            # print(f"\t\t{synonym} -> {query}")
             s = synonym.lower()
             q_split = query.lower().split(" ")
             if s in q_split and len(s) > len(res[1]):
@@ -278,6 +280,18 @@ def ham_bao_keu_viet():
     chosens = []
     for key in data:
         chosens.extend(data[key])
+
+    chosens = [
+        "vạch lông thấy các đốm đỏ",
+        "nổi mụn trứng cá, thường xuất hiện dưới da tạo thành các đốm đỏ",
+        "u hạch ái toan, loét lan rộng hoặc tổn thương ở mũi và môi",
+        "các khối u hoặc dấu hiệu viêm nhiễm trên da, lớp sần sùi trên da",
+        "có thể kèm loét miệng hoặc lở loét quanh mũi",
+        "tăng hoạt động",
+        "nôn ra mật có bọt",
+        "thay đổi hành vi ăn uống",
+        "mất sự ham muốn ăn",
+    ]
 
     norm_chosens = norm_chosen(chosens, words, norm_table, show_=True)
 

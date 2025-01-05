@@ -15,15 +15,18 @@ from utils import *
 
 # Giao diện chính
 def main():
-    st.title(":blue[Cat Disease Diagnosis]")
+    st.set_page_config(
+        page_title="Care for Cats",
+        page_icon=":smiley_cat:",
+        layout="centered",
+        initial_sidebar_state="expanded",
+    )
+    st.title(":blue[:thermometer: Cat Disease Diagnosis]")
     st.write(
         ":rainbow[Chẩn đoán bệnh cho mèo từ triệu chứng bên ngoài. Phần mềm này không thay thế cho việc chẩn đoán của bác sĩ.]"
     )
 
     symptoms = load_symptoms()
-    # symptoms = []
-    # for disease in data:
-    #     symptoms.extend(disease["symptoms"])
 
     # Trạng thái lưu danh sách triệu chứng đã chọn
     if "selected_symptoms" not in st.session_state:
@@ -61,7 +64,7 @@ def main():
 
     # Diagnose button
     st.write("### Chẩn đoán")
-    if st.button("Chẩn đoán"):
+    if st.button("Chẩn đoán 😼"):
         print("\n\n\n\nDiagnostic results:")
         chosens = st.session_state.selected_symptoms
         if not search_query:
@@ -73,7 +76,9 @@ def main():
         st.markdown("### Kết quả chẩn đoán")
 
         if len(diseases) == 0:
-            st.write(":red[Không tìm thấy bệnh phù hợp với triệu chứng đã chọn.]")
+            st.write(
+                ":red[Không tìm thấy bệnh phù hợp với triệu chứng đã chọn.]:confused:"
+            )
             return
 
         # Hiển thị thông tin từng bệnh
@@ -82,7 +87,7 @@ def main():
             # path = f"images/{disease['id']}.jpg"
             path = f"images/ill_cat.jpg"
             with st.expander(
-                f"{disease['name'].upper()} ({disease['score'] * 100:.2f}%)",
+                f"**{disease['name'].upper()}** ({disease['score'] * 100:.2f}%)",
                 expanded=False,
             ):
                 i = disease["id"]
@@ -97,23 +102,25 @@ def main():
                 # st.image(path, caption=path, use_container_width=True)
                 st.image(path, caption=f"{disease['name']}", use_container_width=True)
 
-                st.write("#### Triệu chứng")
+                st.write("#### Triệu chứng 🤒")
                 st.markdown("- " + "\n- ".join(disease["symptoms"]))
 
-                st.write("#### Nguyên nhân")
+                st.write("#### Nguyên nhân 🧐")
                 st.markdown("- " + "\n- ".join(disease["causes"]))
 
-                st.write("#### Lây nhiễm")
-                infectious_text = "Có" if disease["infectious"] else "Không"
-                st.write(f"**Lây nhiễm:** {infectious_text}")
+                st.write("#### Lây nhiễm 🦠")
+                infectious_text = (
+                    "**:red[CÓ]**" if disease["infectious"] else "**:green[KHÔNG]**"
+                )
+                st.write(f"**Khả năng lây nhiễm:** {infectious_text}")
 
-                st.write("#### Phương pháp điều trị")
+                st.write("#### Phương pháp điều trị 🩺")
                 st.markdown("- " + "\n- ".join(disease["treatments"]))
 
-                st.write("#### Thuốc")
+                st.write("#### Các loại thuốc hữu ích 💊")
                 st.markdown("- " + "\n- ".join(disease["medicines"]))
 
-                st.write("#### Phòng ngừa")
+                st.write("#### Phòng ngừa 🛡️")
                 st.markdown("- " + "\n- ".join(disease["preventions"]))
 
 
